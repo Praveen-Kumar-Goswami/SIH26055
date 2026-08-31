@@ -1,0 +1,220 @@
+{
+  "band_plan": {
+    "band_edges_hz": [
+      2000000000.0,
+      3000000000.0,
+      4000000000.0,
+      5000000000.0,
+      6000000000.0,
+      7000000000.0,
+      8000000000.0,
+      9000000000.0,
+      10000000000.0,
+      11000000000.0,
+      12000000000.0,
+      13000000000.0,
+      14000000000.0,
+      15000000000.0,
+      16000000000.0,
+      17000000000.0,
+      18000000000.0
+    ],
+    "band_names": [
+      "2-3GHz",
+      "3-4GHz",
+      "4-5GHz",
+      "5-6GHz",
+      "6-7GHz",
+      "7-8GHz",
+      "8-9GHz",
+      "9-10GHz",
+      "10-11GHz",
+      "11-12GHz",
+      "12-13GHz",
+      "13-14GHz",
+      "14-15GHz",
+      "15-16GHz",
+      "16-17GHz",
+      "17-18GHz"
+    ],
+    "profile_id": "demo_2_18",
+    "scan_span_hz": 16000000000.0
+  },
+  "config": {
+    "ablate_novelty": false,
+    "ablate_periodicity": false,
+    "ablate_priority": false,
+    "band_plan_id": "demo_2_18",
+    "batch_size": 64,
+    "collect_strategies": [
+      "sequential",
+      "random",
+      "fixed-priority",
+      "reactive"
+    ],
+    "default_dwell_steps": 8,
+    "device": "cpu",
+    "dt_s": 0.001,
+    "duration_s": 0.5,
+    "dwell_bins": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "early_stopping_patience": 5,
+    "eval_cadence": 10000,
+    "ewma_alpha": 0.3,
+    "forecast_command_bins": 8,
+    "horizon_steps": 160,
+    "mc_rollouts": 128,
+    "model_version": "0.1.0",
+    "n_envs": 1,
+    "n_epochs_predictor": 8,
+    "noise_power_w": 1e-13,
+    "ppo_batch_size": 64,
+    "ppo_ent_coef": 0.01,
+    "ppo_gamma": 0.99,
+    "ppo_learning_rate": 0.0003,
+    "ppo_n_epochs": 10,
+    "ppo_n_steps": 2048,
+    "ppo_net_arch": [
+      256,
+      256
+    ],
+    "predictor_hidden": 64,
+    "predictor_lr": 0.003,
+    "public_priorities": [
+      8,
+      4,
+      10
+    ],
+    "receiver_config": "configs/receiver.yaml",
+    "reward": {
+      "c_false_like": 0.1,
+      "c_repeat": 0.2,
+      "c_time": 0.05,
+      "c_tune": 0.1,
+      "lambda_novelty": 0.2,
+      "lambda_uncertainty": 0.1,
+      "novelty_bonus_cap": 0.5,
+      "uncertainty_bonus_cap": 0.5,
+      "w_hit": 1.0,
+      "w_priority": 0.5
+    },
+    "schema_version": "1.0.0",
+    "seed": 0,
+    "test_scenarios": [],
+    "timesteps": 200000,
+    "train_scenarios": [
+      {
+        "scenario_id": "sparse",
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "scenario_id": "dense",
+        "seeds": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "scenario_id": "agile_threat",
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "val_scenarios": [
+      {
+        "scenario_id": "sparse",
+        "seeds": [
+          200,
+          201
+        ]
+      },
+      {
+        "scenario_id": "dense",
+        "seeds": [
+          200
+        ]
+      },
+      {
+        "scenario_id": "agile_threat",
+        "seeds": [
+          200,
+          201
+        ]
+      }
+    ]
+  },
+  "dwell_bins": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "feature_schema": {
+    "dwell_bins": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "global_fields": [
+      "settled_band_norm",
+      "last_band_norm",
+      "elapsed_fraction",
+      "last_dwell_norm",
+      "remaining_horizon_norm"
+    ],
+    "includes_tune_cost_per_band": true,
+    "n_bands": 16,
+    "per_band_fields": [
+      "t_since_visit",
+      "m_visit",
+      "t_since_hit",
+      "m_hit",
+      "last_outcome",
+      "ewma_hit",
+      "miss_streak",
+      "hit_count",
+      "snr_ewma",
+      "m_snr",
+      "visit_count",
+      "recent_dwell",
+      "period_s",
+      "phase_to_next",
+      "period_conf",
+      "agility_score",
+      "novelty",
+      "threat"
+    ],
+    "schema_version": "1.0.0",
+    "size": 309
+  },
+  "has_cts": true,
+  "has_ppo": true,
+  "has_predictor": true,
+  "model_version": "0.1.0",
+  "receiver_ibw_hz": 100000000.0,
+  "recency_ok": true,
+  "registered_name": "SmartScanScheduler"
+}

@@ -1,0 +1,23 @@
+# Fresh predeclared synthetic final test for SmartScanScheduler v3.
+# Generated before evaluation. Do not tune on this file.
+# Distinct from configs/benchmark_final.yaml (historical Stage 5/7 gate).
+schema_version: "1.0.0"
+dt_s: 0.001
+duration_s: 0.2
+band_plan_id: demo_2_18
+receiver_config: configs/receiver.yaml
+noise_power_w: 1.0e-13
+default_dwell_steps: 8
+n_seeds: 32
+seed_list: [8000, 8001, 8002, 8003, 8004, 8005, 8006, 8007]
+scenarios: [sparse, dense, agile_threat, random]
+manifest: configs/fresh_test_manifest.json
+pfa_design: 0.001
+public_priorities: [8, 4, 10]
+vs_sequential_air_rel: 0.05
+vs_random_air_rel: 0.05
+vs_sequential_delay_rel: 0.10
+vs_best_noninferior_rel: 0.02
+pfa_newcombe_abs: 0.001
+pfa_newcombe_rel: 0.20
+bootstrap_seed: 0

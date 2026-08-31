@@ -1,0 +1,406 @@
+{
+  "gaps": [],
+  "n_cases": 38,
+  "n_gaps": 0,
+  "rows": [
+    {
+      "area": "Environment",
+      "case": "zero emitters",
+      "missing_paths": [],
+      "notes": "edge_zero scenario",
+      "ok": true,
+      "tests": [
+        "tests/integration/test_scenarios.py",
+        "tests/unit/test_scanner.py"
+      ]
+    },
+    {
+      "area": "Environment",
+      "case": "one continuous",
+      "missing_paths": [],
+      "notes": "ContinuousEmitter",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_emitters.py",
+        "tests/unit/test_environment.py"
+      ]
+    },
+    {
+      "area": "Environment",
+      "case": "overlapping scans",
+      "missing_paths": [],
+      "notes": "dense / overlapping power is linear",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_scanner.py",
+        "tests/integration/test_scenarios.py"
+      ]
+    },
+    {
+      "area": "Environment",
+      "case": "many agile emitters",
+      "missing_paths": [],
+      "notes": "agile_threat",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_emitters.py",
+        "tests/integration/test_scenarios.py"
+      ]
+    },
+    {
+      "area": "Environment",
+      "case": "late unseen activity",
+      "missing_paths": [],
+      "notes": "agile_threat late emitter",
+      "ok": true,
+      "tests": [
+        "tests/integration/test_scenarios.py"
+      ]
+    },
+    {
+      "area": "Timing",
+      "case": "one-step events",
+      "missing_paths": [],
+      "notes": "zero pulse-width impulse in TOA bin",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_turing.py"
+      ]
+    },
+    {
+      "area": "Timing",
+      "case": "long events",
+      "missing_paths": [],
+      "notes": "maximal occupancy runs",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_events.py",
+        "tests/unit/test_metrics.py"
+      ]
+    },
+    {
+      "area": "Timing",
+      "case": "boundary hops",
+      "missing_paths": [],
+      "notes": "FrequencyAgileEmitter hop closes event",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_emitters.py"
+      ]
+    },
+    {
+      "area": "Timing",
+      "case": "final incomplete dwell",
+      "missing_paths": [],
+      "notes": "n_incomplete_commands; incomplete excluded from FoMs",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_scanner.py",
+        "tests/unit/test_metrics.py"
+      ]
+    },
+    {
+      "area": "Timing",
+      "case": "invalid noninteger latency",
+      "missing_paths": [],
+      "notes": "duration_s/dt_s and tune latency must be integer steps",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_detector.py",
+        "tests/unit/test_bands.py"
+      ]
+    },
+    {
+      "area": "Detection",
+      "case": "very low/high SNR",
+      "missing_paths": [],
+      "notes": "analytic Pd and Monte Carlo",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_detector.py",
+        "tests/unit/test_sensitivity.py"
+      ]
+    },
+    {
+      "area": "Detection",
+      "case": "pfa extremes within allowed config",
+      "missing_paths": [],
+      "notes": "pfa_design 1e-3 default; rejected out of range",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_detector.py",
+        "tests/unit/test_logs.py"
+      ]
+    },
+    {
+      "area": "Detection",
+      "case": "partial dwell",
+      "missing_paths": [],
+      "notes": "incomplete during tuning or final dwell",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_scanner.py"
+      ]
+    },
+    {
+      "area": "Detection",
+      "case": "seed replay",
+      "missing_paths": [],
+      "notes": "same seeds reproduce logs",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_io.py",
+        "tests/integration/test_receive.py"
+      ]
+    },
+    {
+      "area": "Data",
+      "case": "missing/gated TSRD",
+      "missing_paths": [],
+      "notes": "tests never require HF_TOKEN or the 70 GB corpus",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_turing.py",
+        "tests/unit/test_turing_loader.py"
+      ]
+    },
+    {
+      "area": "Data",
+      "case": "one legal local .h5",
+      "missing_paths": [],
+      "notes": "tiny generated PulseTrain fixture",
+      "ok": true,
+      "tests": [
+        "tests/conftest.py",
+        "tests/integration/test_scenarios.py"
+      ]
+    },
+    {
+      "area": "Data",
+      "case": "stare truth vs scan observations",
+      "missing_paths": [],
+      "notes": "occupancy_is_observation_not_truth",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_turing.py"
+      ]
+    },
+    {
+      "area": "Data",
+      "case": "clipped 0-2 GHz",
+      "missing_paths": [],
+      "notes": "demo_2_18 drops below 2 GHz; turing_0_18 keeps it",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_turing.py"
+      ]
+    },
+    {
+      "area": "Data",
+      "case": "invalid Wise schema",
+      "missing_paths": [],
+      "notes": "wise_bad.csv GHz-as-Hz rejected",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_wise.py"
+      ]
+    },
+    {
+      "area": "Data",
+      "case": "corrupt checksum",
+      "missing_paths": [],
+      "notes": "checksum fail-closed",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_storage_artifacts.py",
+        "tests/unit/test_storage_repositories.py"
+      ]
+    },
+    {
+      "area": "Persistence",
+      "case": "empty DB migration",
+      "missing_paths": [],
+      "notes": "alembic upgrade empty directory",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_storage_schema.py"
+      ]
+    },
+    {
+      "area": "Persistence",
+      "case": "interrupted MLflow link",
+      "missing_paths": [],
+      "notes": "onesided then reconcile",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_storage_tracking.py"
+      ]
+    },
+    {
+      "area": "Persistence",
+      "case": "MLflow offline",
+      "missing_paths": [],
+      "notes": "NoOpTracker / disabled tracker",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_storage_tracking.py"
+      ]
+    },
+    {
+      "area": "Persistence",
+      "case": "moved project root",
+      "missing_paths": [],
+      "notes": "SMARTSCAN_ROOT override",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_release.py"
+      ]
+    },
+    {
+      "area": "Persistence",
+      "case": "duplicate retry",
+      "missing_paths": [],
+      "notes": "mlflow reconcile does not duplicate",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_storage_tracking.py",
+        "tests/integration/test_storage_cli.py"
+      ]
+    },
+    {
+      "area": "ML",
+      "case": "missing/corrupt bundle",
+      "missing_paths": [],
+      "notes": "checksum rejection; CTS fallback",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_dashboard_services.py",
+        "tests/unit/test_release.py"
+      ]
+    },
+    {
+      "area": "ML",
+      "case": "wrong BandPlan/IBW",
+      "missing_paths": [],
+      "notes": "SchedulerBundle.assert_compatible",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_ml_train_bundle.py"
+      ]
+    },
+    {
+      "area": "ML",
+      "case": "absent champion",
+      "missing_paths": [],
+      "notes": "best-available stays candidate when gate is false",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_release.py",
+        "tests/unit/test_storage_tracking.py"
+      ]
+    },
+    {
+      "area": "ML",
+      "case": "checksum rejection of untrusted bundle",
+      "missing_paths": [],
+      "notes": "corrupt checksums.json",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_dashboard_services.py"
+      ]
+    },
+    {
+      "area": "ML",
+      "case": "CPU-only deterministic evaluation",
+      "missing_paths": [],
+      "notes": "device cpu; frozen seeds",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_ml_train_bundle.py",
+        "tests/unit/test_ml_gate.py"
+      ]
+    },
+    {
+      "area": "Dashboard",
+      "case": "invalid input",
+      "missing_paths": [],
+      "notes": "validate_run_request caps and path sandbox",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_dashboard_services.py"
+      ]
+    },
+    {
+      "area": "Dashboard",
+      "case": "long run",
+      "missing_paths": [],
+      "notes": "max_duration_s live cap",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_dashboard_services.py"
+      ]
+    },
+    {
+      "area": "Dashboard",
+      "case": "no prior runs",
+      "missing_paths": [],
+      "notes": "history empty does not crash",
+      "ok": true,
+      "tests": [
+        "tests/integration/test_dashboard_app.py"
+      ]
+    },
+    {
+      "area": "Dashboard",
+      "case": "unavailable metric",
+      "missing_paths": [],
+      "notes": "Not available; never fabricated zero",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_dashboard_services.py",
+        "tests/unit/test_dashboard_plots.py"
+      ]
+    },
+    {
+      "area": "Dashboard",
+      "case": "failed gate",
+      "missing_paths": [],
+      "notes": "candidate alias; no win badge",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_dashboard_services.py"
+      ]
+    },
+    {
+      "area": "Dashboard",
+      "case": "offline replay",
+      "missing_paths": [],
+      "notes": "demo --offline loads matched runs",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_dashboard_services.py",
+        "tests/integration/test_stage7_cli.py"
+      ]
+    },
+    {
+      "area": "Dashboard",
+      "case": "cross-protocol ranking refused",
+      "missing_paths": [],
+      "notes": "AIR from different protocols cannot be paired",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_experiment_protocol.py"
+      ]
+    },
+    {
+      "area": "ML",
+      "case": "bundle generation fingerprints distinct",
+      "missing_paths": [],
+      "notes": "load v2/v3/v4 verify fingerprint",
+      "ok": true,
+      "tests": [
+        "tests/unit/test_experiment_protocol.py"
+      ]
+    }
+  ]
+}

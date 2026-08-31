@@ -1,0 +1,153 @@
+{
+  "content_fingerprint": "0f00476bd03177a51a4bc520dfe151a5829fcbdd39fa69b492425036e4c1a7fb",
+  "families": [
+    "sparse",
+    "dense",
+    "agile_threat",
+    "random"
+  ],
+  "kind": "research_fresh_final_test",
+  "n_paired_seeds": 32,
+  "notes": "Generated and fingerprinted before evaluating SmartScanScheduler v3. Seeds 8000\u20138007 were never used in v2 training, the improvement train/val/dev-test splits, or the frozen Stage 5/7 held-out set 1000\u20131029. Do not tune on this manifest.",
+  "pairs": [
+    {
+      "scenario_id": "sparse",
+      "seed": 8000
+    },
+    {
+      "scenario_id": "sparse",
+      "seed": 8001
+    },
+    {
+      "scenario_id": "sparse",
+      "seed": 8002
+    },
+    {
+      "scenario_id": "sparse",
+      "seed": 8003
+    },
+    {
+      "scenario_id": "sparse",
+      "seed": 8004
+    },
+    {
+      "scenario_id": "sparse",
+      "seed": 8005
+    },
+    {
+      "scenario_id": "sparse",
+      "seed": 8006
+    },
+    {
+      "scenario_id": "sparse",
+      "seed": 8007
+    },
+    {
+      "scenario_id": "dense",
+      "seed": 8000
+    },
+    {
+      "scenario_id": "dense",
+      "seed": 8001
+    },
+    {
+      "scenario_id": "dense",
+      "seed": 8002
+    },
+    {
+      "scenario_id": "dense",
+      "seed": 8003
+    },
+    {
+      "scenario_id": "dense",
+      "seed": 8004
+    },
+    {
+      "scenario_id": "dense",
+      "seed": 8005
+    },
+    {
+      "scenario_id": "dense",
+      "seed": 8006
+    },
+    {
+      "scenario_id": "dense",
+      "seed": 8007
+    },
+    {
+      "scenario_id": "agile_threat",
+      "seed": 8000
+    },
+    {
+      "scenario_id": "agile_threat",
+      "seed": 8001
+    },
+    {
+      "scenario_id": "agile_threat",
+      "seed": 8002
+    },
+    {
+      "scenario_id": "agile_threat",
+      "seed": 8003
+    },
+    {
+      "scenario_id": "agile_threat",
+      "seed": 8004
+    },
+    {
+      "scenario_id": "agile_threat",
+      "seed": 8005
+    },
+    {
+      "scenario_id": "agile_threat",
+      "seed": 8006
+    },
+    {
+      "scenario_id": "agile_threat",
+      "seed": 8007
+    },
+    {
+      "scenario_id": "random",
+      "seed": 8000
+    },
+    {
+      "scenario_id": "random",
+      "seed": 8001
+    },
+    {
+      "scenario_id": "random",
+      "seed": 8002
+    },
+    {
+      "scenario_id": "random",
+      "seed": 8003
+    },
+    {
+      "scenario_id": "random",
+      "seed": 8004
+    },
+    {
+      "scenario_id": "random",
+      "seed": 8005
+    },
+    {
+      "scenario_id": "random",
+      "seed": 8006
+    },
+    {
+      "scenario_id": "random",
+      "seed": 8007
+    }
+  ],
+  "schema_version": "1.0.0",
+  "seeds": [
+    8000,
+    8001,
+    8002,
+    8003,
+    8004,
+    8005,
+    8006,
+    8007
+  ]
+}

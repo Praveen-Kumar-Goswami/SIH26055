@@ -1,0 +1,62 @@
+{
+  "captured_at": "2026-08-31T10:09:59Z",
+  "url": "http://127.0.0.1:8502",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "ok": true,
+  "failures": [],
+  "views": {
+    "Configure & Run": {
+      "ok": true,
+      "traceback": false,
+      "burger_visible": true
+    },
+    "Scan Replay": {
+      "ok": true,
+      "traceback": false,
+      "burger_visible": true
+    },
+    "Smart Decision": {
+      "ok": true,
+      "traceback": false,
+      "burger_visible": true
+    },
+    "Metrics Compare": {
+      "ok": true,
+      "traceback": false,
+      "burger_visible": true
+    },
+    "Run History": {
+      "ok": true,
+      "traceback": false,
+      "burger_visible": true
+    },
+    "Model & Data Lineage": {
+      "ok": true,
+      "traceback": false,
+      "burger_visible": true
+    }
+  },
+  "hamburger": {
+    "open": true,
+    "close": true,
+    "control_center_open": true,
+    "after_refresh": true
+  },
+  "metrics": {
+    "has_selector": true,
+    "has_v2": true,
+    "has_v3": true,
+    "has_v4": true,
+    "periodic_not_recorded": true,
+    "periodic_zero": false
+  },
+  "command_bar": {
+    "has_current_run": true,
+    "has_active_ppo": true,
+    "has_frozen_gate": true
+  },
+  "page_errors": []
+}

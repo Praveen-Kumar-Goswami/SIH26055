@@ -1,0 +1,10 @@
+# Local Streamlit chrome. No remote fonts.
+[theme]
+base = "dark"
+primaryColor = "#3AA8B5"
+backgroundColor = "#05080B"
+secondaryBackgroundColor = "#0A161C"
+textColor = "#E8EEF2"
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,83 @@
+# Research-cycle training protocol. Disjoint TRAIN / VAL / DEV-TEST.
+# Never uses frozen Stage 5/7 held-out seeds 1000–1029.
+# Hyperparameter selection uses VAL only. test_scenarios is development-test, not the fresh final test.
+schema_version: "1.0.0"
+seed: 41
+device: cpu
+timesteps: 4096
+n_envs: 1
+n_epochs_predictor: 6
+batch_size: 32
+dt_s: 0.001
+duration_s: 0.2
+band_plan_id: demo_2_18
+receiver_config: configs/receiver.yaml
+noise_power_w: 1.0e-13
+dwell_bins: [1, 2, 4, 8, 16]
+default_dwell_steps: 8
+horizon_steps: 80
+forecast_command_bins: 8
+mc_rollouts: 4
+collect_strategies: [sequential, random, fixed-priority, reactive]
+train_scenarios:
+  - {scenario_id: sparse, seeds: [10, 11, 12, 13, 14, 15]}
+  - {scenario_id: dense, seeds: [10, 11, 12, 13]}
+  - {scenario_id: agile_threat, seeds: [10, 11, 12, 13, 14, 15]}
+  - {scenario_id: random, seeds: [10, 11, 12, 13]}
+val_scenarios:
+  - {scenario_id: sparse, seeds: [300, 301]}
+  - {scenario_id: dense, seeds: [300, 301]}
+  - {scenario_id: agile_threat, seeds: [300, 301]}
+  - {scenario_id: random, seeds: [300]}
+test_scenarios:
+  - {scenario_id: sparse, seeds: [400]}
+  - {scenario_id: dense, seeds: [400]}
+  - {scenario_id: agile_threat, seeds: [400]}
+  - {scenario_id: random, seeds: [400]}
+public_priorities: [8, 4, 10]
+predictor_hidden: 48
+predictor_lr: 0.003
+predictor_arch: residual_ln
+predictor_dropout: 0.1
+predictor_patience: 2
+predictor_balance: true
+predictor_loss: bce
+ppo_learning_rate: 0.0003
+ppo_n_steps: 256
+ppo_batch_size: 64
+ppo_n_epochs: 4
+ppo_gamma: 0.99
+ppo_gae_lambda: 0.95
+ppo_clip_range: 0.2
+ppo_vf_coef: 0.5
+ppo_max_grad_norm: 0.5
+ppo_ent_coef: 0.02
+ppo_net_arch: [128, 128]
+ewma_alpha: 0.3
+model_version: "3.0.0-candidate"
+early_stopping_patience: 3
+eval_cadence: 1024
+action_layout: discrete
+include_predictor_obs: true
+include_neural_predictor_obs: false
+include_action_history: 4
+balanced_family_sampling: true
+curriculum_families: []
+curriculum_episode_boundaries: []
+selection_air_weight: 1.0
+selection_ratio_weight: 0.5
+selection_delay_weight: -0.05
+selection_pfa_weight: -20.0
+reward:
+  w_hit: 1.0
+  w_priority: 0.4
+  c_tune: 0.03
+  c_time: 0.02
+  c_repeat: 0.08
+  c_false_like: 0.1
+  lambda_novelty: 0.2
+  lambda_uncertainty: 0.1
+  novelty_bonus_cap: 0.5
+  uncertainty_bonus_cap: 0.5
+  time_cost_mode: excess_dwell
+  time_cost_reference_steps: 8

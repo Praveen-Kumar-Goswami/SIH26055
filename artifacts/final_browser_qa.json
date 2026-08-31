@@ -1,0 +1,176 @@
+{
+  "captured_at": "2026-08-31T10:31:28Z",
+  "url": "http://127.0.0.1:8503",
+  "ok": true,
+  "failures": [],
+  "viewports": {
+    "1366x768": {
+      "views": {
+        "Configure & Run": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Scan Replay": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Smart Decision": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Metrics Compare": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Run History": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Model & Data Lineage": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        }
+      },
+      "hamburger": {
+        "open": true,
+        "close": true,
+        "control_center_open": true,
+        "after_refresh": true
+      },
+      "clicks": {
+        "demo_loaded": true,
+        "stale_v2_demo_caption": false,
+        "persist_visible": true,
+        "validate_visible": true,
+        "validate_run": true,
+        "replay_strategies": {
+          "sequential": true,
+          "random": true,
+          "fixed-priority": true,
+          "reactive": true,
+          "contextual-thompson": true,
+          "periodic-intercept": true,
+          "ppo": true
+        },
+        "replay_play": true,
+        "replay_pause": true,
+        "replay_step": true,
+        "smart_not_available_ok": true,
+        "history_verify": true,
+        "lineage_has_v4": true,
+        "lineage_not_neural_for_rules": true,
+        "doctor": true
+      },
+      "command_bar": {
+        "has_current_run": true,
+        "has_active_ppo": true,
+        "has_frozen_gate": true
+      },
+      "metrics": {
+        "has_selector": true,
+        "has_v2": true,
+        "has_v3": true,
+        "has_v4": true,
+        "periodic_not_recorded": true,
+        "cross_protocol": true
+      }
+    },
+    "1920x1080": {
+      "views": {
+        "Configure & Run": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Scan Replay": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Smart Decision": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Metrics Compare": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Run History": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        },
+        "Model & Data Lineage": {
+          "ok": true,
+          "traceback": false,
+          "burger_visible": true,
+          "overflow": false
+        }
+      },
+      "hamburger": {
+        "open": true,
+        "close": true,
+        "control_center_open": true,
+        "after_refresh": true
+      },
+      "clicks": {
+        "demo_loaded": true,
+        "stale_v2_demo_caption": false,
+        "persist_visible": true,
+        "validate_visible": true,
+        "validate_run": true,
+        "replay_strategies": {
+          "sequential": true,
+          "random": true,
+          "fixed-priority": true,
+          "reactive": true,
+          "contextual-thompson": true,
+          "periodic-intercept": true,
+          "ppo": true
+        },
+        "replay_play": true,
+        "replay_pause": true,
+        "replay_step": true,
+        "smart_not_available_ok": true,
+        "history_verify": true,
+        "lineage_has_v4": true,
+        "lineage_not_neural_for_rules": true,
+        "doctor": true
+      },
+      "command_bar": {
+        "has_current_run": true,
+        "has_active_ppo": true,
+        "has_frozen_gate": true
+      },
+      "metrics": {
+        "has_selector": true,
+        "has_v2": true,
+        "has_v3": true,
+        "has_v4": true,
+        "periodic_not_recorded": true,
+        "cross_protocol": true
+      }
+    }
+  },
+  "page_errors": [],
+  "external_requests": []
+}

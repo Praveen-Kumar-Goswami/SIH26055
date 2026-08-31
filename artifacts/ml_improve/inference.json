@@ -1,0 +1,8 @@
+{
+  "bundle_fingerprint": "e89adc332b7d0532d08fa4d4d694c1dd42cd253a95f6329f2d983d8fc5b4a82f",
+  "cpu_only": true,
+  "load_s": 0.02672500000335276,
+  "mean_infer_ms": 0.06322968761196535,
+  "n_rep": 64,
+  "obs_size": 366
+}

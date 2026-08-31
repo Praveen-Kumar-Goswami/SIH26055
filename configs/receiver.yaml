@@ -1,0 +1,11 @@
+# Stage 2 detector defaults. Physical noise is opt-in.
+receiver_ibw_hz: 1.0e8
+scan_span_hz: 16.0e9
+tune_latency_steps: 1
+dwell_bins: [1, 2, 4, 8, 16]
+noise_mode: normalized
+pfa_design: 0.001
+samples_per_step: 1
+# noise_mode: physical
+# temperature_k: 290.0
+# noise_figure_db: 3.0

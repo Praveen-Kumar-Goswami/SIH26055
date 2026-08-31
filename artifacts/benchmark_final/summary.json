@@ -1,0 +1,223 @@
+{
+  "comparisons": {
+    "air_means": {
+      "contextual-thompson": 7.75,
+      "fixed-priority": 14.0,
+      "oracle-ceiling": 23.25,
+      "ppo": 5.0,
+      "random": 7.0,
+      "reactive": 7.083333333333333,
+      "sequential": 9.25
+    },
+    "air_rel_vs_random": -0.2857142857142857,
+    "air_rel_vs_sequential": -0.4594594594594595,
+    "best_non_oracle": "fixed-priority",
+    "delay_reduction_vs_sequential": 0.6745627376425856,
+    "family_pass": {
+      "agile_threat": false,
+      "dense": false,
+      "sparse": true,
+      "tsrd_synthetic": false,
+      "unseen_random": false
+    },
+    "forecast": {
+      "forecast_coverage_mean": 0.6334291600948913,
+      "n_forecast_scored": 30,
+      "naive_ratio_mae": 0.5012987012987014,
+      "ratio_mae": 0.4325589061539941,
+      "time_error_mean": 0.03900447621750717
+    },
+    "pfa_counts": {
+      "fixed-priority": [
+        0.0,
+        952.0
+      ],
+      "ppo": [
+        1.0,
+        1406.0
+      ]
+    },
+    "pfa_newcombe_limit": 0.001,
+    "pfa_newcombe_upper": 0.0031816439059201814,
+    "vs_best_average_intercept_rate": {
+      "ci_high": -0.9145833333333446,
+      "ci_low": -19.335416666666667,
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        -2.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        7.5,
+        7.5,
+        5.0,
+        5.0,
+        7.5,
+        5.0,
+        7.5,
+        -7.5,
+        -15.0,
+        -12.5,
+        -15.0,
+        -20.0,
+        -17.5,
+        -17.5,
+        -17.5,
+        2.5,
+        -2.5,
+        0.0,
+        0.0,
+        -100.0,
+        -100.0
+      ],
+      "mean_delta": -9.0,
+      "metric_key": "x",
+      "n_pairs": 30,
+      "n_scored": 30,
+      "n_skipped": 0
+    },
+    "vs_best_event_interception_ratio": {
+      "ci_high": 0.044116702741702596,
+      "ci_low": -0.14701244588744591,
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.36363636363636365,
+        0.2727272727272727,
+        0.2727272727272727,
+        0.18181818181818182,
+        0.16666666666666666,
+        0.25,
+        0.18181818181818182,
+        0.25,
+        -0.15000000000000002,
+        -0.2857142857142857,
+        -0.25,
+        -0.30000000000000004,
+        -0.4,
+        -0.35,
+        -0.35,
+        -0.35,
+        0.5,
+        -0.045454545454545456,
+        0.0,
+        0.0,
+        -0.5,
+        -0.5
+      ],
+      "mean_delta": -0.0513924963924964,
+      "metric_key": "x",
+      "n_pairs": 30,
+      "n_scored": 30,
+      "n_skipped": 0
+    },
+    "vs_best_median_delay": {
+      "ci_high": 0.0055539473684210455,
+      "ci_low": -0.005526973684210527,
+      "deltas": [
+        -0.005999999999999998,
+        0.0135,
+        -0.003,
+        -0.005,
+        -0.0065,
+        -0.0010000000000000009,
+        -0.0085,
+        -0.002000000000000001,
+        0.018,
+        -0.009999999999999998,
+        -0.01,
+        0.002,
+        0.0335,
+        -0.008,
+        -0.009500000000000001,
+        -0.014,
+        -0.0145,
+        0.024,
+        -0.0015000000000000005
+      ],
+      "mean_delta": -0.00044736842105263163,
+      "metric_key": "x",
+      "n_pairs": 19,
+      "n_scored": 19,
+      "n_skipped": 0
+    }
+  },
+  "demo_profile_perf": {
+    "duration_s": 60.0,
+    "n_bands": 16,
+    "n_decisions": 6666,
+    "n_steps": 60000,
+    "peak_rss_bytes": 256417792,
+    "peak_rss_gb": 0.23880767822265625,
+    "rss_within_target": true,
+    "scenario_id": "sparse",
+    "seed": 42,
+    "strategy": "sequential",
+    "target_rss_bytes": 2147483648,
+    "target_wall_s": 60.0,
+    "wall_s": 1.0716488999896683,
+    "wall_within_target": true
+  },
+  "gate": {
+    "family_pass": {
+      "agile_threat": false,
+      "dense": false,
+      "sparse": true,
+      "tsrd_synthetic": false,
+      "unseen_random": false
+    },
+    "performance_gate_passed": false,
+    "reasons": [
+      "AIR vs sequential -0.4595 < required 0.05",
+      "AIR vs random -0.2857 < required 0.05",
+      "average_intercept_rate inferior to fixed-priority by -0.6429",
+      "event_interception_ratio inferior to fixed-priority by -0.1221",
+      "no primary paired delta vs best non-oracle has 95% CI excluding zero",
+      "Pfa Newcombe upper 0.00318164 > limit 0.001",
+      "improvement must hold in at least two families including agile_threat"
+    ]
+  },
+  "hashes": {
+    "benchmark_final_yaml_sha256": "2f8768768279e71444039df273704af278757509cdcf5470ca4e51bfc3fcef8b",
+    "held_out_manifest_content_fingerprint": "4603deb9f4203082e087f3bd3b8b3a6e0ac70f9967bef19bc49bfe0c61c5aed4",
+    "held_out_manifest_sha256": "bb3439ddbf23dff9c73b6611049b97ab0f068fd73d52f148fad5f85f44081c83"
+  },
+  "implementation_complete": true,
+  "n_seed_rows": 210,
+  "oracle_ceiling": "unattainable evaluator-only; not a deployable baseline",
+  "provenance": {
+    "captured_at": "2026-08-30T10:53:33Z",
+    "eval_wall_s": 177.25371599999198,
+    "git_sha": null,
+    "packages": {
+      "mlflow": "3.15.2",
+      "numpy": "2.4.6",
+      "plotly": "7.0.0",
+      "scipy": "1.17.1",
+      "streamlit": "1.62.0",
+      "torch": "2.13.0+cpu"
+    },
+    "peak_rss_bytes": 256417792,
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9"
+  },
+  "resolved": {
+    "model": "SmartScanScheduler",
+    "note": "performance_gate_passed=false; structurally valid candidate PPO. Not renamed champion.",
+    "source": "candidate",
+    "strategy": "ppo",
+    "version": "0.1.0"
+  },
+  "reused_existing_gate": false,
+  "schema_version": "1.0.0"
+}

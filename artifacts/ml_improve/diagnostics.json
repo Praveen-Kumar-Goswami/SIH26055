@@ -1,0 +1,990 @@
+{
+  "note": "Diagnostics use the improvement TRAIN/VAL splits only. Held-out 1000\u20131029 unused. PPO here is historical SmartScanScheduler v2 with its original 309-d observation (no v3 extras).",
+  "protocol": {
+    "held_out_seeds_used": false,
+    "n_dev_test": 4,
+    "n_train": 20,
+    "n_val": 7,
+    "train_families": [
+      "agile_threat",
+      "dense",
+      "random",
+      "sparse"
+    ],
+    "val_families": [
+      "agile_threat",
+      "dense",
+      "random",
+      "sparse"
+    ]
+  },
+  "train": {
+    "by_family": {
+      "agile_threat": {
+        "contextual-thompson": {
+          "air": 9.166666666666666,
+          "ratio": 0.17575757575757578
+        },
+        "fixed-priority": {
+          "air": 25.0,
+          "ratio": 0.4696969696969697
+        },
+        "ppo": {
+          "air": 7.5,
+          "ratio": 0.14393939393939395
+        },
+        "random": {
+          "air": 9.166666666666666,
+          "ratio": 0.17121212121212123
+        },
+        "reactive": {
+          "air": 10.833333333333334,
+          "ratio": 0.20454545454545456
+        },
+        "sequential": {
+          "air": 12.5,
+          "ratio": 0.23636363636363636
+        }
+      },
+      "dense": {
+        "contextual-thompson": {
+          "air": 5.0,
+          "ratio": 0.175
+        },
+        "fixed-priority": {
+          "air": 0.0,
+          "ratio": 0.0
+        },
+        "ppo": {
+          "air": 8.75,
+          "ratio": 0.31666666666666665
+        },
+        "random": {
+          "air": 10.0,
+          "ratio": 0.3583333333333333
+        },
+        "reactive": {
+          "air": 11.25,
+          "ratio": 0.41666666666666663
+        },
+        "sequential": {
+          "air": 11.25,
+          "ratio": 0.41666666666666663
+        }
+      },
+      "random": {
+        "contextual-thompson": {
+          "air": 3.75,
+          "ratio": 0.1726190476190476
+        },
+        "fixed-priority": {
+          "air": 5.0,
+          "ratio": 0.17857142857142858
+        },
+        "ppo": {
+          "air": 2.5,
+          "ratio": 0.16666666666666666
+        },
+        "random": {
+          "air": 5.0,
+          "ratio": 0.22023809523809523
+        },
+        "reactive": {
+          "air": 8.75,
+          "ratio": 0.35714285714285715
+        },
+        "sequential": {
+          "air": 5.0,
+          "ratio": 0.21428571428571427
+        }
+      },
+      "sparse": {
+        "contextual-thompson": {
+          "air": 3.3333333333333335,
+          "ratio": 0.4166666666666667
+        },
+        "fixed-priority": {
+          "air": 8.333333333333334,
+          "ratio": 1.0
+        },
+        "ppo": {
+          "air": 5.0,
+          "ratio": 0.6666666666666666
+        },
+        "random": {
+          "air": 6.666666666666667,
+          "ratio": 0.8333333333333334
+        },
+        "reactive": {
+          "air": 7.5,
+          "ratio": 0.9166666666666666
+        },
+        "sequential": {
+          "air": 7.5,
+          "ratio": 0.9166666666666666
+        }
+      }
+    },
+    "n_pairs": 20,
+    "split": "train",
+    "strategies": {
+      "contextual-thompson": {
+        "band_visit_entropy": 2.721719279443343,
+        "cost_false_total": 2.2000000000000006,
+        "cost_repeat_total": 10.350000000000014,
+        "cost_time_total": 29.145000000000135,
+        "cost_tune_total": 32.07999999999967,
+        "dwell_entropy": 1.5866598823789781,
+        "dwell_hist": {
+          "1": 81,
+          "16": 134,
+          "2": 82,
+          "4": 78,
+          "8": 98
+        },
+        "hit_rate": 0.05708245243128964,
+        "hit_rate_per_visited_band": {
+          "0": 0.0,
+          "1": 0.15384615384615385,
+          "10": 0.1282051282051282,
+          "11": 0.0,
+          "12": 0.0625,
+          "13": 0.023255813953488372,
+          "14": 0.0,
+          "15": 0.021739130434782608,
+          "2": 0.1,
+          "3": 0.07142857142857142,
+          "4": 0.1,
+          "5": 0.0,
+          "6": 0.05714285714285714,
+          "7": 0.05,
+          "8": 0.28,
+          "9": 0.0
+        },
+        "hits_following_exploitation": 27,
+        "hits_following_exploration": 0,
+        "mean_air": 5.5,
+        "mean_cost_false": 0.004651162790697676,
+        "mean_cost_repeat": 0.021881606765327726,
+        "mean_cost_time": 0.061617336152220155,
+        "mean_cost_tune": 0.06782241014799086,
+        "mean_delay": 0.0468,
+        "mean_episode_return": -2.214652,
+        "mean_interception_ratio": 0.2511790840738209,
+        "mean_pd": 0.8833333333333333,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.1795511221945136,
+        "mean_reward_hit": 0.05708245243128964,
+        "mean_reward_priority": 0.005247272727272728,
+        "mean_unique_bands": 12.15,
+        "median_air": 5.0,
+        "n_decisions": 473,
+        "p_hit_brier": 0.053542708245243126,
+        "p_hit_ece": 0.052319238900634245,
+        "reward_hit_total": 27.0,
+        "reward_priority_total": 2.4819600000000004,
+        "top_bands": {
+          "0": 35,
+          "10": 39,
+          "11": 34,
+          "12": 32,
+          "13": 43,
+          "15": 46,
+          "5": 38,
+          "6": 35
+        },
+        "tuning_fraction": 0.10425,
+        "wasted_scan_fraction": 0.9345319595863074
+      },
+      "fixed-priority": {
+        "band_visit_entropy": 1.0965754342547216,
+        "cost_false_total": 4.4,
+        "cost_repeat_total": 0.0,
+        "cost_time_total": 29.699999999999882,
+        "cost_tune_total": 35.199999999999605,
+        "dwell_entropy": -1.000088900581841e-12,
+        "dwell_hist": {
+          "8": 440
+        },
+        "hit_rate": 0.25681818181818183,
+        "hit_rate_per_visited_band": {
+          "10": 0.21428571428571427,
+          "4": 0.16428571428571428,
+          "8": 0.375
+        },
+        "hits_following_exploitation": 113,
+        "hits_following_exploration": 0,
+        "mean_air": 11.0,
+        "mean_cost_false": 0.01,
+        "mean_cost_repeat": 0.0,
+        "mean_cost_time": 0.06749999999999973,
+        "mean_cost_tune": 0.0799999999999991,
+        "mean_delay": 0.012785714285714286,
+        "mean_episode_return": 4.009790712246268,
+        "mean_interception_ratio": 0.49231032125768975,
+        "mean_pd": 1.0,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.0,
+        "mean_reward_hit": 0.25681818181818183,
+        "mean_reward_priority": 0.08294503237483038,
+        "mean_unique_bands": 3.0,
+        "median_air": 10.0,
+        "n_decisions": 440,
+        "p_hit_brier": 0.13748432384338644,
+        "p_hit_ece": 0.13338472750000002,
+        "reward_hit_total": 113.0,
+        "reward_priority_total": 36.49581424492536,
+        "top_bands": {
+          "10": 140,
+          "4": 140,
+          "8": 160
+        },
+        "tuning_fraction": 0.115,
+        "wasted_scan_fraction": 0.7431818181818184
+      },
+      "ppo": {
+        "band_visit_entropy": 1.0246951659372856,
+        "cost_false_total": 2.0000000000000004,
+        "cost_repeat_total": 40.94999999999979,
+        "cost_time_total": 29.15250000000037,
+        "cost_tune_total": 27.67999999999976,
+        "dwell_entropy": 0.869577276875596,
+        "dwell_hist": {
+          "1": 1155,
+          "16": 81,
+          "2": 159,
+          "4": 65,
+          "8": 64
+        },
+        "hit_rate": 0.6246719160104987,
+        "hit_rate_per_visited_band": {
+          "1": 0.0,
+          "12": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "2": 0.7329545454545454,
+          "4": 0.05,
+          "5": 0.03125,
+          "6": 0.24242424242424243,
+          "7": 0.058823529411764705,
+          "8": 0.7219251336898396,
+          "9": 0.0
+        },
+        "hits_following_exploitation": 952,
+        "hits_following_exploration": 0,
+        "mean_air": 6.0,
+        "mean_cost_false": 0.0013123359580052495,
+        "mean_cost_repeat": 0.026870078740157344,
+        "mean_cost_time": 0.01912893700787426,
+        "mean_cost_tune": 0.018162729658792495,
+        "mean_delay": 0.011833333333333336,
+        "mean_episode_return": 73.75832430934295,
+        "mean_interception_ratio": 0.34896331738437003,
+        "mean_pd": 0.8262361336580086,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 4.404624277456647,
+        "mean_reward_hit": 0.6246719160104987,
+        "mean_reward_priority": 0.40875917728796574,
+        "mean_unique_bands": 5.95,
+        "median_air": 5.0,
+        "n_decisions": 1524,
+        "p_hit_brier": 0.22396490319164755,
+        "p_hit_ece": 0.1943313786602598,
+        "reward_hit_total": 952.0,
+        "reward_priority_total": 622.9489861868598,
+        "top_bands": {
+          "14": 52,
+          "15": 10,
+          "2": 176,
+          "4": 40,
+          "5": 64,
+          "6": 33,
+          "7": 17,
+          "8": 1122
+        },
+        "tuning_fraction": 0.08925,
+        "wasted_scan_fraction": 0.5468080240866022
+      },
+      "random": {
+        "band_visit_entropy": 2.6951933721545576,
+        "cost_false_total": 3.1000000000000014,
+        "cost_repeat_total": 3.7499999999999987,
+        "cost_time_total": 28.875000000000178,
+        "cost_tune_total": 36.31999999999958,
+        "dwell_entropy": 1.5808832631861809,
+        "dwell_hist": {
+          "1": 96,
+          "16": 138,
+          "2": 82,
+          "4": 96,
+          "8": 68
+        },
+        "hit_rate": 0.08125,
+        "hit_rate_per_visited_band": {
+          "0": 0.0,
+          "1": 0.09090909090909091,
+          "10": 0.25,
+          "11": 0.0,
+          "12": 0.05,
+          "13": 0.019230769230769232,
+          "14": 0.027777777777777776,
+          "15": 0.02,
+          "2": 0.175,
+          "3": 0.03571428571428571,
+          "4": 0.15,
+          "5": 0.03333333333333333,
+          "6": 0.0,
+          "7": 0.0625,
+          "8": 0.39285714285714285,
+          "9": 0.15
+        },
+        "hits_following_exploitation": 39,
+        "hits_following_exploration": 0,
+        "mean_air": 7.75,
+        "mean_cost_false": 0.006458333333333336,
+        "mean_cost_repeat": 0.007812499999999997,
+        "mean_cost_time": 0.06015625000000037,
+        "mean_cost_tune": 0.0756666666666658,
+        "mean_delay": 0.05933333333333332,
+        "mean_episode_return": -1.49157,
+        "mean_interception_ratio": 0.42743791296422873,
+        "mean_pd": 0.8944444444444444,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.0572687224669604,
+        "mean_reward_hit": 0.08125,
+        "mean_reward_priority": 0.006695000000000001,
+        "mean_unique_bands": 13.0,
+        "median_air": 7.5,
+        "n_decisions": 480,
+        "p_hit_brier": 0.07489222708333333,
+        "p_hit_ece": 0.07413958333333334,
+        "reward_hit_total": 39.0,
+        "reward_priority_total": 3.2136000000000005,
+        "top_bands": {
+          "11": 34,
+          "12": 40,
+          "13": 52,
+          "14": 36,
+          "15": 50,
+          "2": 40,
+          "5": 30,
+          "7": 32
+        },
+        "tuning_fraction": 0.118,
+        "wasted_scan_fraction": 0.897543823326432
+      },
+      "reactive": {
+        "band_visit_entropy": 2.733102927978134,
+        "cost_false_total": 3.800000000000002,
+        "cost_repeat_total": 0.0,
+        "cost_time_total": 29.339999999999865,
+        "cost_tune_total": 29.439999999999724,
+        "dwell_entropy": -1.000088900581841e-12,
+        "dwell_hist": {
+          "8": 443
+        },
+        "hit_rate": 0.23927765237020315,
+        "hit_rate_per_visited_band": {
+          "0": 0.0,
+          "1": 0.14705882352941177,
+          "10": 0.6578947368421053,
+          "11": 0.0,
+          "12": 0.20833333333333334,
+          "13": 0.14285714285714285,
+          "14": 0.0,
+          "15": 0.1,
+          "2": 0.1875,
+          "3": 0.0,
+          "4": 0.21428571428571427,
+          "5": 0.04,
+          "6": 0.2608695652173913,
+          "7": 0.32142857142857145,
+          "8": 0.7346938775510204,
+          "9": 0.09523809523809523
+        },
+        "hits_following_exploitation": 106,
+        "hits_following_exploration": 0,
+        "mean_air": 9.5,
+        "mean_cost_false": 0.008577878103837476,
+        "mean_cost_repeat": 0.0,
+        "mean_cost_time": 0.06623024830699743,
+        "mean_cost_tune": 0.06645598194130863,
+        "mean_delay": 0.04347222222222222,
+        "mean_episode_return": 3.524633929311455,
+        "mean_interception_ratio": 0.4981772613351561,
+        "mean_pd": 0.9553825803825805,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.203804347826087,
+        "mean_reward_hit": 0.23927765237020315,
+        "mean_reward_priority": 0.061112141278169566,
+        "mean_unique_bands": 15.65,
+        "median_air": 10.0,
+        "n_decisions": 443,
+        "p_hit_brier": 0.13607133293118723,
+        "p_hit_ece": 0.15087885916478558,
+        "reward_hit_total": 106.0,
+        "reward_priority_total": 27.072678586229117,
+        "top_bands": {
+          "0": 35,
+          "1": 34,
+          "10": 38,
+          "2": 32,
+          "3": 28,
+          "4": 28,
+          "7": 28,
+          "8": 49
+        },
+        "tuning_fraction": 0.09625,
+        "wasted_scan_fraction": 0.7511857707509881
+      },
+      "sequential": {
+        "band_visit_entropy": 2.712962173036891,
+        "cost_false_total": 3.700000000000002,
+        "cost_repeat_total": 0.0,
+        "cost_time_total": 29.699999999999882,
+        "cost_tune_total": 35.199999999999605,
+        "dwell_entropy": -1.000088900581841e-12,
+        "dwell_hist": {
+          "8": 440
+        },
+        "hit_rate": 0.08636363636363636,
+        "hit_rate_per_visited_band": {
+          "0": 0.0,
+          "1": 0.075,
+          "10": 0.05,
+          "11": 0.0,
+          "12": 0.15,
+          "13": 0.05,
+          "14": 0.0,
+          "15": 0.05,
+          "2": 0.125,
+          "3": 0.075,
+          "4": 0.125,
+          "5": 0.025,
+          "6": 0.1,
+          "7": 0.15,
+          "8": 0.5,
+          "9": 0.0
+        },
+        "hits_following_exploitation": 38,
+        "hits_following_exploration": 0,
+        "mean_air": 9.25,
+        "mean_cost_false": 0.008409090909090913,
+        "mean_cost_repeat": 0.0,
+        "mean_cost_time": 0.06749999999999973,
+        "mean_cost_tune": 0.0799999999999991,
+        "mean_delay": 0.04122222222222222,
+        "mean_episode_return": -1.4097939999999995,
+        "mean_interception_ratio": 0.48566871724766464,
+        "mean_pd": 0.9074074074074073,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.0,
+        "mean_reward_hit": 0.08636363636363636,
+        "mean_reward_priority": 0.005463909090909091,
+        "mean_unique_bands": 16.0,
+        "median_air": 10.0,
+        "n_decisions": 440,
+        "p_hit_brier": 0.08690527272727273,
+        "p_hit_ece": 0.08790909090909092,
+        "reward_hit_total": 38.0,
+        "reward_priority_total": 2.4041200000000003,
+        "top_bands": {
+          "0": 40,
+          "1": 40,
+          "2": 40,
+          "3": 40,
+          "4": 40,
+          "5": 40,
+          "6": 20,
+          "7": 20
+        },
+        "tuning_fraction": 0.115,
+        "wasted_scan_fraction": 0.902272727272727
+      }
+    }
+  },
+  "v2_bundle_present": true,
+  "val": {
+    "by_family": {
+      "agile_threat": {
+        "contextual-thompson": {
+          "air": 27.5,
+          "ratio": 0.5
+        },
+        "fixed-priority": {
+          "air": 25.0,
+          "ratio": 0.45454545454545453
+        },
+        "ppo": {
+          "air": 10.0,
+          "ratio": 0.18181818181818182
+        },
+        "random": {
+          "air": 17.5,
+          "ratio": 0.3181818181818182
+        },
+        "reactive": {
+          "air": 7.5,
+          "ratio": 0.13636363636363635
+        },
+        "sequential": {
+          "air": 7.5,
+          "ratio": 0.13636363636363635
+        }
+      },
+      "dense": {
+        "contextual-thompson": {
+          "air": 10.0,
+          "ratio": 0.3666666666666667
+        },
+        "fixed-priority": {
+          "air": 0.0,
+          "ratio": 0.0
+        },
+        "ppo": {
+          "air": 10.0,
+          "ratio": 0.3666666666666667
+        },
+        "random": {
+          "air": 20.0,
+          "ratio": 0.7333333333333334
+        },
+        "reactive": {
+          "air": 12.5,
+          "ratio": 0.4666666666666667
+        },
+        "sequential": {
+          "air": 12.5,
+          "ratio": 0.4666666666666667
+        }
+      },
+      "random": {
+        "contextual-thompson": {
+          "air": 0.0,
+          "ratio": 0.0
+        },
+        "fixed-priority": {
+          "air": 0.0,
+          "ratio": 0.0
+        },
+        "ppo": {
+          "air": 0.0,
+          "ratio": 0.0
+        },
+        "random": {
+          "air": 10.0,
+          "ratio": 0.14285714285714285
+        },
+        "reactive": {
+          "air": 0.0,
+          "ratio": 0.0
+        },
+        "sequential": {
+          "air": 0.0,
+          "ratio": 0.0
+        }
+      },
+      "sparse": {
+        "contextual-thompson": {
+          "air": 5.0,
+          "ratio": 0.75
+        },
+        "fixed-priority": {
+          "air": 5.0,
+          "ratio": 0.75
+        },
+        "ppo": {
+          "air": 5.0,
+          "ratio": 0.75
+        },
+        "random": {
+          "air": 5.0,
+          "ratio": 0.75
+        },
+        "reactive": {
+          "air": 5.0,
+          "ratio": 0.75
+        },
+        "sequential": {
+          "air": 5.0,
+          "ratio": 0.75
+        }
+      }
+    },
+    "n_pairs": 7,
+    "split": "val",
+    "strategies": {
+      "contextual-thompson": {
+        "band_visit_entropy": 2.6516609301310154,
+        "cost_false_total": 1.6000000000000003,
+        "cost_repeat_total": 1.9499999999999995,
+        "cost_time_total": 10.252500000000007,
+        "cost_tune_total": 10.160000000000007,
+        "dwell_entropy": 1.5121260493601203,
+        "dwell_hist": {
+          "1": 16,
+          "16": 53,
+          "2": 18,
+          "4": 27,
+          "8": 29
+        },
+        "hit_rate": 0.13986013986013987,
+        "hit_rate_per_visited_band": {
+          "1": 0.16666666666666666,
+          "10": 0.125,
+          "11": 0.0,
+          "12": 0.18181818181818182,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "2": 0.2857142857142857,
+          "3": 0.1111111111111111,
+          "4": 0.23076923076923078,
+          "5": 0.2,
+          "6": 0.0,
+          "7": 0.5,
+          "8": 0.625,
+          "9": 0.0
+        },
+        "hits_following_exploitation": 20,
+        "hits_following_exploration": 0,
+        "mean_air": 12.142857142857142,
+        "mean_cost_false": 0.01118881118881119,
+        "mean_cost_repeat": 0.013636363636363632,
+        "mean_cost_time": 0.07169580419580424,
+        "mean_cost_tune": 0.0710489510489511,
+        "mean_delay": 0.055500000000000015,
+        "mean_episode_return": -0.30715651486195844,
+        "mean_interception_ratio": 0.46190476190476193,
+        "mean_pd": 0.8571428571428571,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.125984251968504,
+        "mean_reward_hit": 0.13986013986013987,
+        "mean_reward_priority": 0.012674156615148901,
+        "mean_unique_bands": 13.142857142857142,
+        "median_air": 10.0,
+        "n_decisions": 143,
+        "p_hit_brier": 0.12912022377622376,
+        "p_hit_ece": 0.12809790209790212,
+        "reward_hit_total": 20.0,
+        "reward_priority_total": 1.8124043959662928,
+        "top_bands": {
+          "11": 13,
+          "12": 11,
+          "14": 13,
+          "3": 9,
+          "4": 13,
+          "5": 15,
+          "6": 9,
+          "9": 13
+        },
+        "tuning_fraction": 0.09428571428571429,
+        "wasted_scan_fraction": 0.852976078441917
+      },
+      "fixed-priority": {
+        "band_visit_entropy": 1.0965754342547216,
+        "cost_false_total": 1.2,
+        "cost_repeat_total": 0.0,
+        "cost_time_total": 10.395000000000017,
+        "cost_tune_total": 12.32000000000001,
+        "dwell_entropy": -1.000088900581841e-12,
+        "dwell_hist": {
+          "8": 154
+        },
+        "hit_rate": 0.2077922077922078,
+        "hit_rate_per_visited_band": {
+          "10": 0.16326530612244897,
+          "4": 0.08163265306122448,
+          "8": 0.35714285714285715
+        },
+        "hits_following_exploitation": 32,
+        "hits_following_exploration": 0,
+        "mean_air": 8.571428571428571,
+        "mean_cost_false": 0.007792207792207792,
+        "mean_cost_repeat": 0.0,
+        "mean_cost_time": 0.06750000000000012,
+        "mean_cost_tune": 0.08000000000000006,
+        "mean_delay": 0.011250000000000001,
+        "mean_episode_return": 2.698150465839181,
+        "mean_interception_ratio": 0.34415584415584416,
+        "mean_pd": 1.0,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.0,
+        "mean_reward_hit": 0.2077922077922078,
+        "mean_reward_priority": 0.07014320299269006,
+        "mean_unique_bands": 3.0,
+        "median_air": 5.0,
+        "n_decisions": 154,
+        "p_hit_brier": 0.10383872693331214,
+        "p_hit_ece": 0.10769938246753245,
+        "reward_hit_total": 32.0,
+        "reward_priority_total": 10.802053260874269,
+        "top_bands": {
+          "10": 49,
+          "4": 49,
+          "8": 56
+        },
+        "tuning_fraction": 0.115,
+        "wasted_scan_fraction": 0.7922077922077921
+      },
+      "ppo": {
+        "band_visit_entropy": 1.1750080731960089,
+        "cost_false_total": 0.5,
+        "cost_repeat_total": 11.700000000000017,
+        "cost_time_total": 10.260000000000005,
+        "cost_tune_total": 10.480000000000008,
+        "dwell_entropy": 1.051427660759846,
+        "dwell_hist": {
+          "1": 281,
+          "16": 34,
+          "2": 82,
+          "4": 10,
+          "8": 26
+        },
+        "hit_rate": 0.5658198614318707,
+        "hit_rate_per_visited_band": {
+          "1": 0.0,
+          "10": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "2": 0.8076923076923077,
+          "4": 0.0,
+          "5": 0.06896551724137931,
+          "6": 0.18181818181818182,
+          "7": 0.3333333333333333,
+          "8": 0.6344086021505376
+        },
+        "hits_following_exploitation": 245,
+        "hits_following_exploration": 0,
+        "mean_air": 7.142857142857143,
+        "mean_cost_false": 0.0011547344110854503,
+        "mean_cost_repeat": 0.027020785219399577,
+        "mean_cost_time": 0.023695150115473452,
+        "mean_cost_tune": 0.024203233256351056,
+        "mean_delay": 0.028333333333333335,
+        "mean_episode_return": 51.58503667049597,
+        "mean_interception_ratio": 0.37099567099567093,
+        "mean_pd": 0.7643354119298955,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 3.3053435114503817,
+        "mean_reward_hit": 0.5658198614318707,
+        "mean_reward_priority": 0.3441922787378093,
+        "mean_unique_bands": 5.714285714285714,
+        "median_air": 10.0,
+        "n_decisions": 433,
+        "p_hit_brier": 0.23551714558350656,
+        "p_hit_ece": 0.21318335206653838,
+        "reward_hit_total": 245.0,
+        "reward_priority_total": 149.0352566934714,
+        "top_bands": {
+          "10": 4,
+          "14": 22,
+          "15": 5,
+          "2": 78,
+          "5": 29,
+          "6": 11,
+          "7": 3,
+          "8": 279
+        },
+        "tuning_fraction": 0.09785714285714285,
+        "wasted_scan_fraction": 0.5497657955122828
+      },
+      "random": {
+        "band_visit_entropy": 2.7238674434128494,
+        "cost_false_total": 1.9000000000000006,
+        "cost_repeat_total": 0.75,
+        "cost_time_total": 10.395000000000001,
+        "cost_tune_total": 15.840000000000012,
+        "dwell_entropy": 1.5823561209547066,
+        "dwell_hist": {
+          "1": 36,
+          "16": 32,
+          "2": 36,
+          "4": 60,
+          "8": 41
+        },
+        "hit_rate": 0.11707317073170732,
+        "hit_rate_per_visited_band": {
+          "0": 0.0,
+          "1": 0.07142857142857142,
+          "10": 0.14285714285714285,
+          "11": 0.0,
+          "12": 0.18181818181818182,
+          "13": 0.08333333333333333,
+          "14": 0.04,
+          "15": 0.0,
+          "2": 0.3076923076923077,
+          "3": 0.15384615384615385,
+          "4": 0.0,
+          "5": 0.09090909090909091,
+          "6": 0.07692307692307693,
+          "7": 0.23076923076923078,
+          "8": 0.4,
+          "9": 0.14285714285714285
+        },
+        "hits_following_exploitation": 24,
+        "hits_following_exploration": 0,
+        "mean_air": 13.571428571428571,
+        "mean_cost_false": 0.009268292682926832,
+        "mean_cost_repeat": 0.003658536585365854,
+        "mean_cost_time": 0.050707317073170735,
+        "mean_cost_tune": 0.07726829268292688,
+        "mean_delay": 0.039714285714285716,
+        "mean_episode_return": -0.3874342001156081,
+        "mean_interception_ratio": 0.5351267779839209,
+        "mean_pd": 0.9142857142857144,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.0353535353535352,
+        "mean_reward_hit": 0.11707317073170732,
+        "mean_reward_priority": 0.01059980780093045,
+        "mean_unique_bands": 15.142857142857142,
+        "median_air": 15.0,
+        "n_decisions": 205,
+        "p_hit_brier": 0.10674393170731707,
+        "p_hit_ece": 0.09801951219512195,
+        "reward_hit_total": 24.0,
+        "reward_priority_total": 2.172960599190742,
+        "top_bands": {
+          "1": 14,
+          "10": 14,
+          "11": 15,
+          "14": 25,
+          "2": 13,
+          "3": 13,
+          "6": 13,
+          "9": 14
+        },
+        "tuning_fraction": 0.14642857142857144,
+        "wasted_scan_fraction": 0.868663594470046
+      },
+      "reactive": {
+        "band_visit_entropy": 2.6326253141093368,
+        "cost_false_total": 0.9999999999999999,
+        "cost_repeat_total": 0.0,
+        "cost_time_total": 10.320000000000016,
+        "cost_tune_total": 9.600000000000007,
+        "dwell_entropy": -1.000088900581841e-12,
+        "dwell_hist": {
+          "8": 157
+        },
+        "hit_rate": 0.2929936305732484,
+        "hit_rate_per_visited_band": {
+          "0": 0.0,
+          "1": 0.1,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "2": 0.7037037037037037,
+          "3": 0.0,
+          "4": 0.18181818181818182,
+          "5": 0.3076923076923077,
+          "6": 0.0,
+          "7": 0.5,
+          "8": 0.8,
+          "9": 0.0
+        },
+        "hits_following_exploitation": 46,
+        "hits_following_exploration": 0,
+        "mean_air": 7.142857142857143,
+        "mean_cost_false": 0.006369426751592356,
+        "mean_cost_repeat": 0.0,
+        "mean_cost_time": 0.06573248407643323,
+        "mean_cost_tune": 0.061146496815286666,
+        "mean_delay": 0.043083333333333335,
+        "mean_episode_return": 5.6740132371107785,
+        "mean_interception_ratio": 0.3865800865800865,
+        "mean_pd": 0.8571428571428571,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.3083333333333333,
+        "mean_reward_hit": 0.2929936305732484,
+        "mean_reward_priority": 0.09323625897946149,
+        "mean_unique_bands": 14.714285714285714,
+        "median_air": 5.0,
+        "n_decisions": 157,
+        "p_hit_brier": 0.10256602736896851,
+        "p_hit_ece": 0.12902833400191205,
+        "reward_hit_total": 46.0,
+        "reward_priority_total": 14.638092659775454,
+        "top_bands": {
+          "0": 10,
+          "1": 10,
+          "2": 27,
+          "3": 10,
+          "4": 11,
+          "5": 13,
+          "7": 8,
+          "8": 20
+        },
+        "tuning_fraction": 0.08928571428571429,
+        "wasted_scan_fraction": 0.704686617730096
+      },
+      "sequential": {
+        "band_visit_entropy": 2.712962173036891,
+        "cost_false_total": 0.9999999999999999,
+        "cost_repeat_total": 0.0,
+        "cost_time_total": 10.395000000000017,
+        "cost_tune_total": 12.32000000000001,
+        "dwell_entropy": -1.000088900581841e-12,
+        "dwell_hist": {
+          "8": 154
+        },
+        "hit_rate": 0.06493506493506493,
+        "hit_rate_per_visited_band": {
+          "0": 0.0,
+          "1": 0.07142857142857142,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0,
+          "13": 0.0,
+          "14": 0.0,
+          "15": 0.0,
+          "2": 0.14285714285714285,
+          "3": 0.07142857142857142,
+          "4": 0.07142857142857142,
+          "5": 0.07142857142857142,
+          "6": 0.14285714285714285,
+          "7": 0.14285714285714285,
+          "8": 0.2857142857142857,
+          "9": 0.0
+        },
+        "hits_following_exploitation": 10,
+        "hits_following_exploration": 0,
+        "mean_air": 7.142857142857143,
+        "mean_cost_false": 0.006493506493506493,
+        "mean_cost_repeat": 0.0,
+        "mean_cost_time": 0.06750000000000012,
+        "mean_cost_tune": 0.08000000000000006,
+        "mean_delay": 0.043833333333333335,
+        "mean_episode_return": -1.8729771428571422,
+        "mean_interception_ratio": 0.3865800865800865,
+        "mean_pd": 0.8571428571428571,
+        "mean_pfa": 0.0,
+        "mean_repeat_streak": 1.0,
+        "mean_reward_hit": 0.06493506493506493,
+        "mean_reward_priority": 0.003923116883116883,
+        "mean_unique_bands": 16.0,
+        "median_air": 5.0,
+        "n_decisions": 154,
+        "p_hit_brier": 0.06716955844155843,
+        "p_hit_ece": 0.072,
+        "reward_hit_total": 10.0,
+        "reward_priority_total": 0.60416,
+        "top_bands": {
+          "0": 14,
+          "1": 14,
+          "2": 14,
+          "3": 14,
+          "4": 14,
+          "5": 14,
+          "6": 7,
+          "7": 7
+        },
+        "tuning_fraction": 0.115,
+        "wasted_scan_fraction": 0.9285714285714286
+      }
+    }
+  }
+}

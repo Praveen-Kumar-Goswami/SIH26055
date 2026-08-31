@@ -1,0 +1,3362 @@
+[
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08657682926829267,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 41.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1000,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.1456,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.09259259259259259,
+      "median_delay": 0.026000000000000002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 53.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1000,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.09620738303842265,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.0155,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 28.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1000,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.07598045,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.6666666666666666,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1000,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.10804461538461539,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.5652173913043478,
+      "median_delay": 0.124,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 43.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1000,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.028423983972177116,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.7666666666666667,
+      "median_delay": 0.009500000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 77.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1000,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.012877551020408167,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.0105,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1000,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.0893939024390244,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.051000000000000004,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 40.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1001,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08306108108108108,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.5522388059701493,
+      "median_delay": 0.013000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 64.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1001,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.08083687571140921,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.015000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1001,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.06790658624714285,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.7777777777777778,
+      "median_delay": 0.059000000000000004,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 32.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1001,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.0880625,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.56,
+      "median_delay": 0.218,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1001,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.002076435475552478,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9233449477351916,
+      "median_delay": 0.0285,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1001,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.012914428571428577,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.009500000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1001,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.09554024390243901,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.0485,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 40.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1002,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.10112954545454546,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.6567164179104478,
+      "median_delay": 0.057499999999999996,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 62.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1002,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.08083687571140921,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.008,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1002,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.06551765229999999,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.7777777777777778,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 33.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1002,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.09370424390243902,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.7454545454545455,
+      "median_delay": 0.045,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 51.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1002,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.006245777537157572,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.005,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 34.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1002,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.012897632035381652,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.011000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1002,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.09711341463414633,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.043500000000000004,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 40.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1003,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.09919219512195122,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.7321428571428571,
+      "median_delay": 0.085,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 53.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1003,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.09236569427187433,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.012,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1003,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.0818210465116279,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9555555555555556,
+      "median_delay": 0.051500000000000004,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 36.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1003,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.10277333333333334,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.30612244897959184,
+      "median_delay": 0.079,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 45.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1003,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.009052726608850257,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.4375,
+      "median_delay": 0.007,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1003,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.012897958810760566,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.01,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1003,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08657682926829267,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 41.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1004,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.09042030303030305,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.6,
+      "median_delay": 0.181,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 52.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1004,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.08083687571140921,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.0115,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1004,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.07598045,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.6666666666666666,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1004,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.076253125,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.64,
+      "median_delay": 0.20600000000000002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 47.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1004,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.006841235997174375,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.6056338028169014,
+      "median_delay": 0.005,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 72.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1004,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.012891176952944984,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.009500000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1004,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08657682926829267,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 41.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1005,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.10677150625000001,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.5925925925925926,
+      "median_delay": 0.022,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 49.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1005,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.08360619427187432,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.005000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 26.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1005,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.06486958333333334,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.8,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 32.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1005,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.07891975609756097,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.803921568627451,
+      "median_delay": 0.005,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 48.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1005,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.019224724134433258,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.983957219251337,
+      "median_delay": 0.004,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 51.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1005,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.01289795271488281,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.0115,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1005,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08657682926829267,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 41.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1006,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.1059533125,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.7741935483870968,
+      "median_delay": 0.014,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 56.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1006,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.08240765078350223,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.013000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1006,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.07875233977272728,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1006,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08884560645161292,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.6888888888888889,
+      "median_delay": 0.029,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 40.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1006,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.03980123277803735,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.8387096774193549,
+      "median_delay": 0.0045000000000000005,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 55.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1006,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.01289789347131111,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.009000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1006,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08657682926829267,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 41.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1007,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08341599999999999,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.5208333333333334,
+      "median_delay": 0.154,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1007,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.09493313613233946,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.009000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 29.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1007,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08038439772727274,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.081,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1007,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08388888888888887,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.375,
+      "median_delay": 0.259,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 47.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1007,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.0068842171037332275,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.4017094017094017,
+      "median_delay": 0.007,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 71.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1007,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.009938775510204088,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.009000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "sparse",
+    "seed": 1007,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.1018,
+      "event_interception_ratio": 0.5454545454545454,
+      "intercept_time_forecast_coverage": 0.7954545454545454,
+      "median_delay": 0.036000000000000004,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1008,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.09626526737500005,
+      "event_interception_ratio": 0.5454545454545454,
+      "intercept_time_forecast_coverage": 0.9655172413793104,
+      "median_delay": 0.042499999999999996,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 48.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1008,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1008,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.08413051128205129,
+      "event_interception_ratio": 0.5454545454545454,
+      "intercept_time_forecast_coverage": 0.8666666666666667,
+      "median_delay": 0.036500000000000005,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 28.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1008,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.11167200000000002,
+      "event_interception_ratio": 0.5454545454545454,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.05,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 47.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1008,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.02743278496880466,
+      "event_interception_ratio": 0.36363636363636365,
+      "intercept_time_forecast_coverage": 0.7526881720430108,
+      "median_delay": 0.031,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 51.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1008,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.012938841845175346,
+      "event_interception_ratio": 0.36363636363636365,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.01,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1008,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.11116666666666666,
+      "event_interception_ratio": 0.6363636363636364,
+      "intercept_time_forecast_coverage": 0.8181818181818182,
+      "median_delay": 0.04,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1009,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.11197872340425534,
+      "event_interception_ratio": 0.45454545454545453,
+      "intercept_time_forecast_coverage": 0.9038461538461539,
+      "median_delay": 0.031,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 45.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1009,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1009,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.05823733155172413,
+      "event_interception_ratio": 0.18181818181818182,
+      "intercept_time_forecast_coverage": 0.6444444444444445,
+      "median_delay": 0.019,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 33.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1009,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.10577973170731707,
+      "event_interception_ratio": 0.45454545454545453,
+      "intercept_time_forecast_coverage": 0.82,
+      "median_delay": 0.014,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 42.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1009,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.07529774799077842,
+      "event_interception_ratio": 0.2727272727272727,
+      "intercept_time_forecast_coverage": 0.8660287081339713,
+      "median_delay": 0.005,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 56.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1009,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.01633646333872905,
+      "event_interception_ratio": 0.45454545454545453,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.013000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1009,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.11116666666666666,
+      "event_interception_ratio": 0.6363636363636364,
+      "intercept_time_forecast_coverage": 0.8181818181818182,
+      "median_delay": 0.04,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1010,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.08762865954545454,
+      "event_interception_ratio": 0.18181818181818182,
+      "intercept_time_forecast_coverage": 0.8301886792452831,
+      "median_delay": 0.019000000000000003,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 48.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1010,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1010,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.08383378900000002,
+      "event_interception_ratio": 0.36363636363636365,
+      "intercept_time_forecast_coverage": 0.7777777777777778,
+      "median_delay": 0.019,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 32.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1010,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.08741620512820515,
+      "event_interception_ratio": 0.2727272727272727,
+      "intercept_time_forecast_coverage": 0.9069767441860465,
+      "median_delay": 0.03,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 36.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1010,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.08438799487971685,
+      "event_interception_ratio": 0.2727272727272727,
+      "intercept_time_forecast_coverage": 0.8622222222222222,
+      "median_delay": 0.006,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 65.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1010,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.01633646333872905,
+      "event_interception_ratio": 0.45454545454545453,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.013000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1010,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.10535,
+      "event_interception_ratio": 0.45454545454545453,
+      "intercept_time_forecast_coverage": 0.6818181818181818,
+      "median_delay": 0.028,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 39.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1011,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.09599730769230767,
+      "event_interception_ratio": 0.36363636363636365,
+      "intercept_time_forecast_coverage": 0.8387096774193549,
+      "median_delay": 0.031,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 57.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1011,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1011,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.07314175568181819,
+      "event_interception_ratio": 0.8181818181818182,
+      "intercept_time_forecast_coverage": 0.9565217391304348,
+      "median_delay": 0.02,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 20.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1011,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.10831422448979591,
+      "event_interception_ratio": 0.6363636363636364,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.047,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 40.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1011,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.0631169263032986,
+      "event_interception_ratio": 0.18181818181818182,
+      "intercept_time_forecast_coverage": 0.8090452261306532,
+      "median_delay": 0.015000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 55.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1011,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.012938841845175346,
+      "event_interception_ratio": 0.36363636363636365,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.01,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1011,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.10535,
+      "event_interception_ratio": 0.4166666666666667,
+      "intercept_time_forecast_coverage": 0.6818181818181818,
+      "median_delay": 0.028,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 39.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1012,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.08825487891086957,
+      "event_interception_ratio": 0.4166666666666667,
+      "intercept_time_forecast_coverage": 0.8070175438596491,
+      "median_delay": 0.023,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 49.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1012,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1012,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.0722940955,
+      "event_interception_ratio": 0.5833333333333334,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.028,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 22.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1012,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.10997485466666666,
+      "event_interception_ratio": 0.4166666666666667,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.017,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 36.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1012,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.02049658178918079,
+      "event_interception_ratio": 0.16666666666666666,
+      "intercept_time_forecast_coverage": 0.5510204081632653,
+      "median_delay": 0.0495,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 80.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1012,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.015877617355379427,
+      "event_interception_ratio": 0.4166666666666667,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.011,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1012,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.10215714285714286,
+      "event_interception_ratio": 0.4166666666666667,
+      "intercept_time_forecast_coverage": 0.7954545454545454,
+      "median_delay": 0.03,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 39.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1013,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 20.0,
+      "average_intercept_time_error": 0.11156595121951221,
+      "event_interception_ratio": 0.6666666666666666,
+      "intercept_time_forecast_coverage": 0.7735849056603774,
+      "median_delay": 0.0125,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 43.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1013,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1013,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.08818484957294595,
+      "event_interception_ratio": 0.4166666666666667,
+      "intercept_time_forecast_coverage": 0.8222222222222222,
+      "median_delay": 0.043000000000000003,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 30.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1013,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.08909347826086957,
+      "event_interception_ratio": 0.3333333333333333,
+      "intercept_time_forecast_coverage": 0.92,
+      "median_delay": 0.0105,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 45.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1013,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.08095487287836912,
+      "event_interception_ratio": 0.25,
+      "intercept_time_forecast_coverage": 0.9506726457399103,
+      "median_delay": 0.008,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1013,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.012977257845175345,
+      "event_interception_ratio": 0.3333333333333333,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.0115,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1013,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.10428589743589743,
+      "event_interception_ratio": 0.5454545454545454,
+      "intercept_time_forecast_coverage": 0.8863636363636364,
+      "median_delay": 0.041999999999999996,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1014,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.08935063828571428,
+      "event_interception_ratio": 0.36363636363636365,
+      "intercept_time_forecast_coverage": 0.6730769230769231,
+      "median_delay": 0.0505,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 47.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1014,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1014,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.05260663632635241,
+      "event_interception_ratio": 0.2727272727272727,
+      "intercept_time_forecast_coverage": 0.9565217391304348,
+      "median_delay": 0.066,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 21.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1014,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.09071714285714286,
+      "event_interception_ratio": 0.2727272727272727,
+      "intercept_time_forecast_coverage": 0.7291666666666666,
+      "median_delay": 0.055,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 43.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1014,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.11876756725151114,
+      "event_interception_ratio": 0.18181818181818182,
+      "intercept_time_forecast_coverage": 0.9553072625698324,
+      "median_delay": 0.0035,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 28.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1014,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.01707051729210107,
+      "event_interception_ratio": 0.45454545454545453,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.015,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1014,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.10428589743589743,
+      "event_interception_ratio": 0.5833333333333334,
+      "intercept_time_forecast_coverage": 0.8863636363636364,
+      "median_delay": 0.027,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1015,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.1046,
+      "event_interception_ratio": 0.3333333333333333,
+      "intercept_time_forecast_coverage": 0.7755102040816326,
+      "median_delay": 0.023,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 43.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1015,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1015,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.07338837209302329,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.9347826086956522,
+      "median_delay": 0.028499999999999998,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 21.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1015,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.10468133333333336,
+      "event_interception_ratio": 0.3333333333333333,
+      "intercept_time_forecast_coverage": 0.9807692307692307,
+      "median_delay": 0.026000000000000002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1015,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.12147101888028174,
+      "event_interception_ratio": 0.25,
+      "intercept_time_forecast_coverage": 0.9480874316939891,
+      "median_delay": 0.002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 26.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1015,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.017730577056508524,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.013,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "dense",
+    "seed": 1015,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.10692857142857144,
+      "event_interception_ratio": 0.35,
+      "intercept_time_forecast_coverage": 0.9545454545454546,
+      "median_delay": 0.019,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 36.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1016,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.09433333333333335,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 0.8571428571428571,
+      "median_delay": 0.012,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1016,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.05792437795223937,
+      "event_interception_ratio": 0.45,
+      "intercept_time_forecast_coverage": 0.9545454545454546,
+      "median_delay": 0.013000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1016,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.07559795999999998,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 0.5555555555555556,
+      "median_delay": 0.018000000000000002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1016,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.11048133333333335,
+      "event_interception_ratio": 0.2,
+      "intercept_time_forecast_coverage": 0.9375,
+      "median_delay": 0.012499999999999999,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 42.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1016,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.01918843742665995,
+      "event_interception_ratio": 0.3,
+      "intercept_time_forecast_coverage": 0.9029850746268657,
+      "median_delay": 0.0055,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 82.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1016,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 45.0,
+      "average_intercept_time_error": 0.03178448064382977,
+      "event_interception_ratio": 0.9,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.01,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1016,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.09538372093023255,
+      "event_interception_ratio": 0.14285714285714285,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.017,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 40.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1017,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.09058620689655171,
+      "event_interception_ratio": 0.09523809523809523,
+      "intercept_time_forecast_coverage": 0.5370370370370371,
+      "median_delay": 0.062,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 52.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1017,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.05968057083432398,
+      "event_interception_ratio": 0.42857142857142855,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.015,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1017,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.09527702499999999,
+      "event_interception_ratio": 0.19047619047619047,
+      "intercept_time_forecast_coverage": 0.8888888888888888,
+      "median_delay": 0.019000000000000003,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 35.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1017,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.09289964705882355,
+      "event_interception_ratio": 0.19047619047619047,
+      "intercept_time_forecast_coverage": 0.7555555555555555,
+      "median_delay": 0.0225,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1017,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.03066410283237954,
+      "event_interception_ratio": 0.14285714285714285,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.031,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 33.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1017,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 42.5,
+      "average_intercept_time_error": 0.03213871374936168,
+      "event_interception_ratio": 0.8095238095238095,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.011,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1017,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.10286046511627907,
+      "event_interception_ratio": 0.3,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.017,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1018,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.11912604516129033,
+      "event_interception_ratio": 0.35,
+      "intercept_time_forecast_coverage": 0.96875,
+      "median_delay": 0.023,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 55.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1018,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.05457555089918545,
+      "event_interception_ratio": 0.45,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.016,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 28.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1018,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.08915955609756096,
+      "event_interception_ratio": 0.3,
+      "intercept_time_forecast_coverage": 0.9111111111111111,
+      "median_delay": 0.02,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 30.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1018,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.10053957450980394,
+      "event_interception_ratio": 0.25,
+      "intercept_time_forecast_coverage": 0.9272727272727272,
+      "median_delay": 0.005,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1018,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.06651950533035328,
+      "event_interception_ratio": 0.2,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.0055,
+      "pfa": 0.024390243902439025,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 41.0,
+    "pfa_num": 1.0,
+    "scenario_id": "agile_threat",
+    "seed": 1018,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 42.5,
+      "average_intercept_time_error": 0.033456493142148894,
+      "event_interception_ratio": 0.85,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.011,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1018,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.10692857142857144,
+      "event_interception_ratio": 0.35,
+      "intercept_time_forecast_coverage": 0.9545454545454546,
+      "median_delay": 0.019,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 36.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1019,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.08571300000000001,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 0.6153846153846154,
+      "median_delay": 0.031,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 49.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1019,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.05792437795223937,
+      "event_interception_ratio": 0.45,
+      "intercept_time_forecast_coverage": 0.9545454545454546,
+      "median_delay": 0.013000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1019,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.07559795999999999,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 0.5555555555555556,
+      "median_delay": 0.018000000000000002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1019,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.08487741935483871,
+      "event_interception_ratio": 0.1,
+      "intercept_time_forecast_coverage": 0.6595744680851063,
+      "median_delay": 0.048,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1019,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.026604415276932025,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 0.8271604938271605,
+      "median_delay": 0.002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 60.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1019,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 42.5,
+      "average_intercept_time_error": 0.02878996575829786,
+      "event_interception_ratio": 0.85,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.011,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1019,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.10415116279069768,
+      "event_interception_ratio": 0.3,
+      "intercept_time_forecast_coverage": 0.9772727272727273,
+      "median_delay": 0.0195,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1020,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.07425,
+      "event_interception_ratio": 0.05,
+      "intercept_time_forecast_coverage": 0.3333333333333333,
+      "median_delay": 0.002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 47.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1020,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.05457555089918545,
+      "event_interception_ratio": 0.45,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.016,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 28.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1020,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.0662239130434783,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.012,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 25.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1020,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.12265384615384615,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 0.52,
+      "median_delay": 0.006,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1020,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.011551491739929379,
+      "event_interception_ratio": 0.05,
+      "intercept_time_forecast_coverage": 0.2857142857142857,
+      "median_delay": 0.007,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1020,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 45.0,
+      "average_intercept_time_error": 0.03120301790276594,
+      "event_interception_ratio": 0.9,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.01,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1020,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.10296249999999998,
+      "event_interception_ratio": 0.25,
+      "intercept_time_forecast_coverage": 0.9090909090909091,
+      "median_delay": 0.031,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1021,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.11005103846153844,
+      "event_interception_ratio": 0.3,
+      "intercept_time_forecast_coverage": 0.8253968253968254,
+      "median_delay": 0.0115,
+      "pfa": 0.018518518518518517,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 54.0,
+    "pfa_num": 1.0,
+    "scenario_id": "agile_threat",
+    "seed": 1021,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.056653481897903826,
+      "event_interception_ratio": 0.45,
+      "intercept_time_forecast_coverage": 0.9545454545454546,
+      "median_delay": 0.016,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 29.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1021,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.07618749999999998,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 0.7111111111111111,
+      "median_delay": 0.039,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 36.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1021,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 17.5,
+      "average_intercept_time_error": 0.1011847948717949,
+      "event_interception_ratio": 0.35,
+      "intercept_time_forecast_coverage": 0.8297872340425532,
+      "median_delay": 0.02,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1021,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.019998351676422336,
+      "event_interception_ratio": 0.1,
+      "intercept_time_forecast_coverage": 0.6721311475409836,
+      "median_delay": 0.003,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 42.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1021,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 37.5,
+      "average_intercept_time_error": 0.02589183091562498,
+      "event_interception_ratio": 0.75,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.009000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1021,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 20.0,
+      "average_intercept_time_error": 0.10582142857142857,
+      "event_interception_ratio": 0.4,
+      "intercept_time_forecast_coverage": 0.9545454545454546,
+      "median_delay": 0.018500000000000003,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 35.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1022,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 7.5,
+      "average_intercept_time_error": 0.09178204545454545,
+      "event_interception_ratio": 0.15,
+      "intercept_time_forecast_coverage": 0.7719298245614035,
+      "median_delay": 0.016,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 50.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1022,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.05792437795223937,
+      "event_interception_ratio": 0.45,
+      "intercept_time_forecast_coverage": 0.9545454545454546,
+      "median_delay": 0.013000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 27.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1022,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.06443795999999997,
+      "event_interception_ratio": 0.1,
+      "intercept_time_forecast_coverage": 0.5555555555555556,
+      "median_delay": 0.038500000000000006,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1022,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.10538418604651163,
+      "event_interception_ratio": 0.3,
+      "intercept_time_forecast_coverage": 0.8775510204081632,
+      "median_delay": 0.016,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 42.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1022,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.025472390220196473,
+      "event_interception_ratio": 0.1,
+      "intercept_time_forecast_coverage": 0.7166666666666667,
+      "median_delay": 0.0045000000000000005,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 46.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1022,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 42.5,
+      "average_intercept_time_error": 0.028596486180425505,
+      "event_interception_ratio": 0.85,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.011,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1022,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.10153658536585367,
+      "event_interception_ratio": 0.2,
+      "intercept_time_forecast_coverage": 0.9318181818181818,
+      "median_delay": 0.035,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 39.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1023,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.1112251162790698,
+      "event_interception_ratio": 0.25,
+      "intercept_time_forecast_coverage": 0.7678571428571429,
+      "median_delay": 0.025,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 48.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1023,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 22.5,
+      "average_intercept_time_error": 0.056653481897903826,
+      "event_interception_ratio": 0.45,
+      "intercept_time_forecast_coverage": 0.9545454545454546,
+      "median_delay": 0.016,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 29.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1023,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.09116187714285713,
+      "event_interception_ratio": 0.2,
+      "intercept_time_forecast_coverage": 0.7777777777777778,
+      "median_delay": 0.03,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 32.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1023,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 20.0,
+      "average_intercept_time_error": 0.1118723909090909,
+      "event_interception_ratio": 0.4,
+      "intercept_time_forecast_coverage": 0.9166666666666666,
+      "median_delay": 0.0175,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1023,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.019422553794899364,
+      "event_interception_ratio": 0.1,
+      "intercept_time_forecast_coverage": 0.6379310344827587,
+      "median_delay": 0.001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 40.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1023,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 42.5,
+      "average_intercept_time_error": 0.032241709648723374,
+      "event_interception_ratio": 0.85,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.01,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "agile_threat",
+    "seed": 1023,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08257794117647058,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.7727272727272727,
+      "median_delay": 0.018000000000000002,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 41.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1024,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.10761711020408161,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.875,
+      "median_delay": 0.009000000000000001,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 51.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1024,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1024,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.07608288547619049,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.9333333333333333,
+      "median_delay": 0.02,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 33.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1024,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.09316666666666666,
+      "event_interception_ratio": 1.0,
+      "intercept_time_forecast_coverage": 0.5555555555555556,
+      "median_delay": 0.0815,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 51.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1024,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.04521482859084996,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 0.3076923076923077,
+      "median_delay": 0.067,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 38.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1024,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.009938775510204088,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.009000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1024,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 10.0,
+      "average_intercept_time_error": 0.11534714285714284,
+      "event_interception_ratio": 0.18181818181818182,
+      "intercept_time_forecast_coverage": 0.7954545454545454,
+      "median_delay": 0.024,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 34.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1025,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 12.5,
+      "average_intercept_time_error": 0.09654,
+      "event_interception_ratio": 0.22727272727272727,
+      "intercept_time_forecast_coverage": 0.9259259259259259,
+      "median_delay": 0.017,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 42.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1025,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.11499999999999999,
+      "event_interception_ratio": 0.045454545454545456,
+      "intercept_time_forecast_coverage": 0.20454545454545456,
+      "median_delay": 0.02,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 43.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1025,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 5.0,
+      "average_intercept_time_error": 0.0845262380952381,
+      "event_interception_ratio": 0.09090909090909091,
+      "intercept_time_forecast_coverage": 0.4772727272727273,
+      "median_delay": 0.0655,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 34.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1025,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 15.0,
+      "average_intercept_time_error": 0.11280796491228073,
+      "event_interception_ratio": 0.2727272727272727,
+      "intercept_time_forecast_coverage": 0.9661016949152542,
+      "median_delay": 0.010499999999999999,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1025,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 33.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1025,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.018220365417444824,
+      "event_interception_ratio": 0.045454545454545456,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.017,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1025,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.07899999999999999,
+      "event_interception_ratio": 0.07142857142857142,
+      "intercept_time_forecast_coverage": 0.38636363636363635,
+      "median_delay": 0.015,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1026,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 61.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1026,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 29.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1026,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.07899999999999999,
+      "event_interception_ratio": 0.07142857142857142,
+      "intercept_time_forecast_coverage": 0.38636363636363635,
+      "median_delay": 0.015,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 37.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1026,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 2.5,
+      "average_intercept_time_error": 0.08642105263157895,
+      "event_interception_ratio": 0.07142857142857142,
+      "intercept_time_forecast_coverage": 0.40425531914893614,
+      "median_delay": 0.015,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 42.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1026,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 63.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1026,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 20.0,
+      "average_intercept_time_error": 0.05296917351615444,
+      "event_interception_ratio": 0.5714285714285714,
+      "intercept_time_forecast_coverage": 0.875,
+      "median_delay": 0.013,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1026,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 39.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1027,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 42.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1027,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1027,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 39.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1027,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 42.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1027,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.7017602333479216
+    },
+    "pfa_den": 44.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1027,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "unseen_random",
+    "seed": 1027,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 1.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1028,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": null,
+      "median_delay": null,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1028,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 100.0,
+      "average_intercept_time_error": 0.151,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.007,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1028,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 1.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1028,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": null,
+      "median_delay": null,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1028,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.1171875
+    },
+    "pfa_den": 3.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1028,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 100.0,
+      "average_intercept_time_error": 0.151,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.009000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1028,
+    "strategy": "oracle-ceiling"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 1.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1029,
+    "strategy": "sequential"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": null,
+      "median_delay": null,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1029,
+    "strategy": "random"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 100.0,
+      "average_intercept_time_error": 0.151,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.007,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1029,
+    "strategy": "fixed-priority"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 1.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1029,
+    "strategy": "reactive"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 3.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1029,
+    "strategy": "contextual-thompson"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 0.0,
+      "average_intercept_time_error": null,
+      "event_interception_ratio": 0.0,
+      "intercept_time_forecast_coverage": 0.0,
+      "median_delay": null,
+      "pfa": 0.0,
+      "predicted_interception_ratio": 0.1171875
+    },
+    "pfa_den": 3.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1029,
+    "strategy": "ppo"
+  },
+  {
+    "metrics": {
+      "average_intercept_rate": 100.0,
+      "average_intercept_time_error": 0.151,
+      "event_interception_ratio": 0.5,
+      "intercept_time_forecast_coverage": 1.0,
+      "median_delay": 0.009000000000000001,
+      "pfa": null,
+      "predicted_interception_ratio": 0.0
+    },
+    "pfa_den": 0.0,
+    "pfa_num": 0.0,
+    "scenario_id": "tsrd_synthetic",
+    "seed": 1029,
+    "strategy": "oracle-ceiling"
+  }
+]

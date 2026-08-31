@@ -1,0 +1,121 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smartscan"
+version = "0.1.0"
+description = "SIH26055 Smart Scan Strategy for Electronic Warfare — offline-first prototype"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "SIH26055" }]
+dependencies = [
+    "numpy>=1.26,<3",
+    "scipy>=1.11",
+    "pandas>=2.1",
+    "h5py>=3.10",
+    "pyyaml>=6.0",
+    "pydantic>=2.5",
+    "sqlalchemy>=2.0",
+    "alembic>=1.13",
+    "mlflow>=2.14",
+    "torch>=2.2",
+    "gymnasium>=0.29",
+    "stable-baselines3>=2.3",
+    "streamlit>=1.36",
+    "plotly>=5.22",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "pandas-stubs>=2.2",
+    "types-pyyaml>=6.0",
+]
+storage = [
+    "sqlalchemy>=2.0",
+    "alembic>=1.13",
+    "mlflow>=2.14",
+]
+ml = [
+    "torch>=2.2",
+    "gymnasium>=0.29",
+    "stable-baselines3>=2.3",
+]
+dashboard = [
+    "streamlit>=1.36",
+    "plotly>=5.22",
+]
+
+[project.scripts]
+smartscan = "smartscan.cli:main"
+
+[project.urls]
+Homepage = "https://sih.gov.in/sih2026PS"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+smartscan = [
+    "py.typed",
+    "dashboard/ui/*.js",
+    "storage/alembic.ini",
+    "storage/alembic/*.py",
+    "storage/alembic/*.mako",
+    "storage/alembic/versions/*.py",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+markers = [
+    "full_bench: 30-seed frozen held-out eval (opt-in SMARTSCAN_FULL_BENCH=1)",
+    "full_train: full PPO training budget (opt-in SMARTSCAN_FULL_TRAIN=1)",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["smartscan"]
+
+[tool.coverage.report]
+omit = [
+    "src/smartscan/dashboard/app.py",
+    "src/smartscan/dashboard/pages.py",
+    "src/smartscan/cli.py",
+    "src/smartscan/ml/cli.py",
+]
+show_missing = true
+skip_empty = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = "src"
+packages = ["smartscan"]
+warn_return_any = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+check_untyped_defs = true
+ignore_missing_imports = true
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+default = true

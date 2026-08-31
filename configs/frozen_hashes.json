@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "stage5_precommit": true,
+  "notes": "Frozen in Stage 5 before full training. Stage 7 refuses final evidence if these hashes change.",
+  "held_out_manifest_content_fingerprint": "4603deb9f4203082e087f3bd3b8b3a6e0ac70f9967bef19bc49bfe0c61c5aed4",
+  "held_out_manifest_sha256": "bb3439ddbf23dff9c73b6611049b97ab0f068fd73d52f148fad5f85f44081c83",
+  "benchmark_final_yaml_sha256": "2f8768768279e71444039df273704af278757509cdcf5470ca4e51bfc3fcef8b",
+  "benchmark_path": "configs/benchmark_final.yaml",
+  "manifest_path": "configs/held_out_manifest.json"
+}

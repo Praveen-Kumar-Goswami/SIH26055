@@ -1,0 +1,9 @@
+{
+  "bundle_dir": "D:\\SIH\\artifacts\\models\\scheduler_v4",
+  "bundle_fingerprint": "a674290744dd6a18f290a2cc248ccd7c9455d77bd5cc0bf4f05a2b33196a9fe7",
+  "cpu_only": true,
+  "load_s": 0.037920799979474396,
+  "mean_infer_ms": 0.11412656249376596,
+  "n_rep": 64,
+  "obs_size": 366
+}

@@ -1,0 +1,35 @@
+{
+  "family_pass": {
+    "agile_threat": false,
+    "dense": false,
+    "sparse": true,
+    "tsrd_synthetic": false,
+    "unseen_random": false
+  },
+  "hashes": {
+    "benchmark_final_yaml_sha256": "2f8768768279e71444039df273704af278757509cdcf5470ca4e51bfc3fcef8b",
+    "held_out_manifest_content_fingerprint": "4603deb9f4203082e087f3bd3b8b3a6e0ac70f9967bef19bc49bfe0c61c5aed4",
+    "held_out_manifest_sha256": "bb3439ddbf23dff9c73b6611049b97ab0f068fd73d52f148fad5f85f44081c83"
+  },
+  "implementation_complete": true,
+  "n_seed_rows": 210,
+  "oracle_ceiling": "unattainable evaluator-only; not a deployable baseline",
+  "performance_gate_passed": false,
+  "reasons": [
+    "AIR vs sequential -0.4595 < required 0.05",
+    "AIR vs random -0.2857 < required 0.05",
+    "average_intercept_rate inferior to fixed-priority by -0.6429",
+    "event_interception_ratio inferior to fixed-priority by -0.1221",
+    "no primary paired delta vs best non-oracle has 95% CI excluding zero",
+    "Pfa Newcombe upper 0.00318164 > limit 0.001",
+    "improvement must hold in at least two families including agile_threat"
+  ],
+  "resolved": {
+    "model": "SmartScanScheduler",
+    "note": "performance_gate_passed=false; structurally valid candidate PPO. Not renamed champion.",
+    "source": "candidate",
+    "strategy": "ppo",
+    "version": "0.1.0"
+  },
+  "reused_existing_gate": false
+}

@@ -1,0 +1,47 @@
+# Stage 5 smoke training profile. Proves the loop. Not used for performance claims.
+schema_version: "1.0.0"
+seed: 0
+device: cpu
+timesteps: 256
+n_envs: 1
+n_epochs_predictor: 2
+batch_size: 16
+dt_s: 0.001
+duration_s: 0.2
+band_plan_id: demo_2_18
+receiver_config: configs/receiver.yaml
+noise_power_w: 1.0e-13
+dwell_bins: [1, 2, 4, 8, 16]
+default_dwell_steps: 8
+horizon_steps: 80
+forecast_command_bins: 8
+mc_rollouts: 8
+collect_strategies: [sequential, random, fixed-priority, reactive]
+train_scenarios:
+  - {scenario_id: sparse, seeds: [0, 1]}
+  - {scenario_id: dense, seeds: [0]}
+  - {scenario_id: agile_threat, seeds: [0]}
+val_scenarios:
+  - {scenario_id: sparse, seeds: [100]}
+test_scenarios: []
+public_priorities: [8, 4, 10]
+predictor_hidden: 32
+predictor_lr: 0.01
+ppo_learning_rate: 0.0003
+ppo_n_steps: 64
+ppo_batch_size: 32
+ppo_n_epochs: 2
+ppo_gamma: 0.99
+ewma_alpha: 0.3
+model_version: "0.1.0-smoke"
+reward:
+  w_hit: 1.0
+  w_priority: 0.5
+  c_tune: 0.1
+  c_time: 0.05
+  c_repeat: 0.2
+  c_false_like: 0.1
+  lambda_novelty: 0.2
+  lambda_uncertainty: 0.1
+  novelty_bonus_cap: 0.5
+  uncertainty_bonus_cap: 0.5

@@ -1,0 +1,21 @@
+# Offline Stage 6 dashboard profile. Caps live runs; larger work uses recorded replay.
+schema_version: "1.0.0"
+host: 127.0.0.1
+port: 8501
+max_duration_s: 2.0
+max_n_bands: 16
+demo_scenario_id: agile_threat
+demo_seed: 42
+demo_duration_s: 0.2
+demo_dt_s: 0.001
+noise_power_w: 1.0e-13
+dwell_steps: 8
+mc_rollouts: 8
+horizon_steps: 80
+public_priorities: [8, 4, 10]
+receiver_config: configs/receiver.yaml
+band_plan_id: demo_2_18
+model_dir: artifacts/models/scheduler_v4
+gate_path: artifacts/models/held_out_gate.json
+demo_dir: artifacts/demo
+train_config: configs/train_v4.yaml

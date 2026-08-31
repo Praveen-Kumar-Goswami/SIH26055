@@ -1,0 +1,298 @@
+{
+  "band_plan": {
+    "band_edges_hz": [
+      2000000000.0,
+      3000000000.0,
+      4000000000.0,
+      5000000000.0,
+      6000000000.0,
+      7000000000.0,
+      8000000000.0,
+      9000000000.0,
+      10000000000.0,
+      11000000000.0,
+      12000000000.0,
+      13000000000.0,
+      14000000000.0,
+      15000000000.0,
+      16000000000.0,
+      17000000000.0,
+      18000000000.0
+    ],
+    "band_names": [
+      "2-3GHz",
+      "3-4GHz",
+      "4-5GHz",
+      "5-6GHz",
+      "6-7GHz",
+      "7-8GHz",
+      "8-9GHz",
+      "9-10GHz",
+      "10-11GHz",
+      "11-12GHz",
+      "12-13GHz",
+      "13-14GHz",
+      "14-15GHz",
+      "15-16GHz",
+      "16-17GHz",
+      "17-18GHz"
+    ],
+    "profile_id": "demo_2_18",
+    "scan_span_hz": 16000000000.0
+  },
+  "config": {
+    "ablate_novelty": false,
+    "ablate_periodicity": false,
+    "ablate_priority": false,
+    "action_layout": "multidiscrete",
+    "balanced_family_sampling": true,
+    "band_plan_id": "demo_2_18",
+    "batch_size": 32,
+    "collect_strategies": [
+      "sequential",
+      "random",
+      "fixed-priority",
+      "reactive"
+    ],
+    "curriculum_episode_boundaries": [],
+    "curriculum_families": [],
+    "default_dwell_steps": 8,
+    "device": "cpu",
+    "dt_s": 0.001,
+    "duration_s": 0.2,
+    "dwell_bins": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "early_stopping_patience": 5,
+    "eval_cadence": 4096,
+    "ewma_alpha": 0.3,
+    "forecast_command_bins": 8,
+    "horizon_steps": 80,
+    "include_action_history": 4,
+    "include_neural_predictor_obs": false,
+    "include_predictor_obs": true,
+    "mc_rollouts": 2,
+    "model_version": "4.0.0-candidate",
+    "n_envs": 2,
+    "n_epochs_predictor": 6,
+    "noise_power_w": 1e-13,
+    "ppo_batch_size": 128,
+    "ppo_bc_episodes": 12,
+    "ppo_bc_epochs": 40,
+    "ppo_bc_teachers": [
+      "sequential",
+      "reactive",
+      "periodic-intercept"
+    ],
+    "ppo_clip_range": 0.15,
+    "ppo_ent_coef": 0.008,
+    "ppo_gae_lambda": 0.95,
+    "ppo_gamma": 0.995,
+    "ppo_learning_rate": 0.00015,
+    "ppo_max_grad_norm": 0.5,
+    "ppo_n_epochs": 4,
+    "ppo_n_steps": 256,
+    "ppo_net_arch": [
+      128,
+      128
+    ],
+    "ppo_vf_coef": 0.5,
+    "predictor_arch": "mlp",
+    "predictor_balance": true,
+    "predictor_dropout": 0.1,
+    "predictor_focal_gamma": 2.0,
+    "predictor_hidden": 48,
+    "predictor_loss": "bce",
+    "predictor_lr": 0.003,
+    "predictor_patience": 2,
+    "public_priorities": [
+      8,
+      4,
+      10
+    ],
+    "receiver_config": "configs/receiver.yaml",
+    "reward": {
+      "c_action": 0.06,
+      "c_false_like": 0.1,
+      "c_repeat": 0.1,
+      "c_repeat_hit": 0.25,
+      "c_time": 0.02,
+      "c_tune": 0.02,
+      "coverage_window": 16,
+      "first_hit_only": true,
+      "lambda_novelty": 0.2,
+      "lambda_uncertainty": 0.1,
+      "novelty_bonus_cap": 0.5,
+      "time_cost_mode": "excess_dwell",
+      "time_cost_reference_steps": 8,
+      "uncertainty_bonus_cap": 0.5,
+      "w_coverage": 0.18,
+      "w_hit": 1.2,
+      "w_priority": 0.35
+    },
+    "schema_version": "1.0.0",
+    "seed": 51,
+    "selection_air_weight": 1.0,
+    "selection_delay_weight": -0.05,
+    "selection_pfa_weight": -20.0,
+    "selection_ratio_weight": 0.5,
+    "test_scenarios": [
+      {
+        "scenario_id": "sparse",
+        "seeds": [
+          400
+        ]
+      },
+      {
+        "scenario_id": "dense",
+        "seeds": [
+          400
+        ]
+      },
+      {
+        "scenario_id": "agile_threat",
+        "seeds": [
+          400
+        ]
+      },
+      {
+        "scenario_id": "random",
+        "seeds": [
+          400
+        ]
+      }
+    ],
+    "timesteps": 32768,
+    "train_scenarios": [
+      {
+        "scenario_id": "sparse",
+        "seeds": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "scenario_id": "dense",
+        "seeds": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "scenario_id": "agile_threat",
+        "seeds": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "scenario_id": "random",
+        "seeds": [
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ],
+    "val_scenarios": [
+      {
+        "scenario_id": "sparse",
+        "seeds": [
+          300,
+          301
+        ]
+      },
+      {
+        "scenario_id": "dense",
+        "seeds": [
+          300,
+          301
+        ]
+      },
+      {
+        "scenario_id": "agile_threat",
+        "seeds": [
+          300,
+          301
+        ]
+      },
+      {
+        "scenario_id": "random",
+        "seeds": [
+          300
+        ]
+      }
+    ]
+  },
+  "dwell_bins": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "feature_schema": {
+    "action_history": 4,
+    "dwell_bins": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "global_fields": [
+      "settled_band_norm",
+      "last_band_norm",
+      "elapsed_fraction",
+      "last_dwell_norm",
+      "remaining_horizon_norm"
+    ],
+    "includes_tune_cost_per_band": true,
+    "n_bands": 16,
+    "per_band_fields": [
+      "t_since_visit",
+      "m_visit",
+      "t_since_hit",
+      "m_hit",
+      "last_outcome",
+      "ewma_hit",
+      "miss_streak",
+      "hit_count",
+      "snr_ewma",
+      "m_snr",
+      "visit_count",
+      "recent_dwell",
+      "period_s",
+      "phase_to_next",
+      "period_conf",
+      "agility_score",
+      "novelty",
+      "threat"
+    ],
+    "predictor_obs": true,
+    "schema_version": "1.0.0",
+    "size": 366
+  },
+  "has_cts": true,
+  "has_ppo": true,
+  "has_predictor": true,
+  "model_version": "4.0.0-candidate",
+  "receiver_ibw_hz": 100000000.0,
+  "recency_ok": true,
+  "registered_name": "SmartScanScheduler"
+}

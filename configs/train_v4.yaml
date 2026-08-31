@@ -1,0 +1,91 @@
+# v4 accuracy pass. Disjoint TRAIN / VAL / DEV-TEST.
+# Never uses frozen Stage 5/7 seeds 1000–1029, v3 fresh-test 8000–8007, or v4 fresh-test 9000–9007.
+# Hyperparameter / checkpoint selection uses VAL only.
+schema_version: "1.0.0"
+seed: 51
+device: cpu
+timesteps: 32768
+n_envs: 2
+n_epochs_predictor: 6
+batch_size: 32
+dt_s: 0.001
+duration_s: 0.2
+band_plan_id: demo_2_18
+receiver_config: configs/receiver.yaml
+noise_power_w: 1.0e-13
+dwell_bins: [1, 2, 4, 8, 16]
+default_dwell_steps: 8
+horizon_steps: 80
+forecast_command_bins: 8
+mc_rollouts: 2
+collect_strategies: [sequential, random, fixed-priority, reactive]
+train_scenarios:
+  - {scenario_id: sparse, seeds: [10, 11, 12, 13, 14, 15]}
+  - {scenario_id: dense, seeds: [10, 11, 12, 13]}
+  - {scenario_id: agile_threat, seeds: [10, 11, 12, 13, 14, 15]}
+  - {scenario_id: random, seeds: [10, 11, 12, 13]}
+val_scenarios:
+  - {scenario_id: sparse, seeds: [300, 301]}
+  - {scenario_id: dense, seeds: [300, 301]}
+  - {scenario_id: agile_threat, seeds: [300, 301]}
+  - {scenario_id: random, seeds: [300]}
+test_scenarios:
+  - {scenario_id: sparse, seeds: [400]}
+  - {scenario_id: dense, seeds: [400]}
+  - {scenario_id: agile_threat, seeds: [400]}
+  - {scenario_id: random, seeds: [400]}
+public_priorities: [8, 4, 10]
+predictor_hidden: 48
+predictor_lr: 0.003
+predictor_arch: mlp
+predictor_dropout: 0.1
+predictor_patience: 2
+predictor_balance: true
+predictor_loss: bce
+ppo_learning_rate: 0.00015
+ppo_n_steps: 256
+ppo_batch_size: 128
+ppo_n_epochs: 4
+ppo_gamma: 0.995
+ppo_gae_lambda: 0.95
+ppo_clip_range: 0.15
+ppo_vf_coef: 0.5
+ppo_max_grad_norm: 0.5
+ppo_ent_coef: 0.008
+ppo_net_arch: [128, 128]
+ewma_alpha: 0.3
+model_version: "4.0.0-candidate"
+early_stopping_patience: 5
+eval_cadence: 4096
+action_layout: multidiscrete
+include_predictor_obs: true
+include_neural_predictor_obs: false
+include_action_history: 4
+balanced_family_sampling: true
+curriculum_families: []
+curriculum_episode_boundaries: []
+selection_air_weight: 1.0
+selection_ratio_weight: 0.5
+selection_delay_weight: -0.05
+selection_pfa_weight: -20.0
+ppo_bc_epochs: 40
+ppo_bc_episodes: 12
+ppo_bc_teachers: [sequential, reactive, periodic-intercept]
+reward:
+  w_hit: 1.2
+  w_priority: 0.35
+  c_tune: 0.02
+  c_time: 0.02
+  c_repeat: 0.1
+  c_false_like: 0.1
+  lambda_novelty: 0.2
+  lambda_uncertainty: 0.1
+  novelty_bonus_cap: 0.5
+  uncertainty_bonus_cap: 0.5
+  time_cost_mode: excess_dwell
+  time_cost_reference_steps: 8
+  first_hit_only: true
+  w_coverage: 0.18
+  coverage_window: 16
+  c_action: 0.06
+  c_repeat_hit: 0.25

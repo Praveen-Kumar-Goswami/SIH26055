@@ -1,0 +1,23 @@
+{
+  "bundle_content_fingerprint": "a674290744dd6a18f290a2cc248ccd7c9455d77bd5cc0bf4f05a2b33196a9fe7",
+  "dt_s": 0.001,
+  "duration_s": 0.2,
+  "file_sha256": {
+    "truth.npz": "c850acc9b7db053f17a8137a0c62e61ffe5abe55133a32c13b17fb219111151e"
+  },
+  "matched": true,
+  "receiver_seed": 42,
+  "scenario_id": "agile_threat",
+  "schema_version": "1.0.0",
+  "seed": 42,
+  "strategies": [
+    "sequential",
+    "random",
+    "fixed-priority",
+    "reactive",
+    "contextual-thompson",
+    "periodic-intercept",
+    "ppo"
+  ],
+  "truth_fingerprint": "db732d9f71deb18c9021528e4517f80d9979504d425ff47cb00a88e75f9d2d70"
+}

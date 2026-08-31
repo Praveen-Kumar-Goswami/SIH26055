@@ -1,0 +1,15 @@
+{
+  "demo_yaml": {
+    "seed": 42,
+    "dt_s": 0.001,
+    "duration_s": 2.0,
+    "band_plan_id": "demo_2_18",
+    "scenario_id": "sparse",
+    "content_fingerprint": "0a1189f223baa22d3d9823764518a402ef0f0a3832ea5c48fdfca5b118b20c05"
+  },
+  "tsrd_tiny_import_demo_2_18": {
+    "duration_s": 0.01,
+    "dt_s": 0.001,
+    "content_fingerprint": "7474f5612cfd04e28c6a5cc86ff495067a6fdd9ea7b6595af8336c7506151627"
+  }
+}

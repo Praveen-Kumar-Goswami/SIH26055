@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-08-31T08:22:12Z",
+  "url": "http://127.0.0.1:8501",
+  "strategies": {
+    "sequential": {
+      "run": false,
+      "replay": false,
+      "smart": false,
+      "metrics": true,
+      "history": true,
+      "error": "Locator.wait_for: Timeout 180000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"stAlertContentSuccess\").get_by_text(\"RUN COMPLETE\") to be visible\n    351 \u00d7 locator resolved to hidden <p>RUN COMPLETE</p>\n"
+    },
+    "random": {
+      "run": false,
+      "replay": false,
+      "smart": false,
+      "metrics": true,
+      "history": true,
+      "error": "Locator.wait_for: Timeout 180000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"stAlertContentSuccess\").get_by_text(\"RUN COMPLETE\") to be visible\n    351 \u00d7 locator resolved to hidden <p>RUN COMPLETE</p>\n"
+    },
+    "fixed-priority": {
+      "run": false,
+      "replay": false,
+      "smart": false,
+      "metrics": true,
+      "history": true,
+      "error": "Locator.wait_for: Timeout 180000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"stAlertContentSuccess\").get_by_text(\"RUN COMPLETE\") to be visible\n    353 \u00d7 locator resolved to hidden <p>RUN COMPLETE</p>\n"
+    },
+    "reactive": {
+      "run": false,
+      "replay": false,
+      "smart": false,
+      "metrics": true,
+      "history": true,
+      "error": "Locator.wait_for: Timeout 180000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"stAlertContentSuccess\").get_by_text(\"RUN COMPLETE\") to be visible\n    351 \u00d7 locator resolved to hidden <p>RUN COMPLETE</p>\n"
+    },
+    "contextual-thompson": {
+      "run": false,
+      "replay": false,
+      "smart": false,
+      "metrics": true,
+      "history": true,
+      "error": "Locator.wait_for: Timeout 180000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"stAlertContentSuccess\").get_by_text(\"RUN COMPLETE\") to be visible\n    349 \u00d7 locator resolved to hidden <p>RUN COMPLETE</p>\n"
+    },
+    "periodic-intercept": {
+      "run": false,
+      "replay": false,
+      "smart": false,
+      "metrics": true,
+      "history": true,
+      "error": "Locator.wait_for: Timeout 180000ms exceeded.\nCall log:\n  - waiting for get_by_test_id(\"stAlertContentSuccess\").get_by_text(\"RUN COMPLETE\") to be visible\n    351 \u00d7 locator resolved to hidden <p>RUN COMPLETE</p>\n"
+    },
+    "ppo": {
+      "run": true,
+      "replay": false,
+      "smart": true,
+      "metrics": true,
+      "history": true,
+      "header": true,
+      "smart_has_rule": true
+    }
+  },
+  "dropdown": [
+    "sequential",
+    "random",
+    "fixed-priority",
+    "reactive",
+    "contextual-thompson",
+    "periodic-intercept",
+    "ppo"
+  ],
+  "ok": false,
+  "page_errors": [],
+  "dropdown_count": 7
+}
